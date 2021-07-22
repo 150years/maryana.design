@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		".current {\n  color: green;\n}\n"
+		".navbar-brand {\n  font-size: 30px !important;\n  font-family: 'Zen Tokyo Zoo', cursive;\n}\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,aAAa,CAAC,EACZ,SAAS,EAAE,eAAe,EAC1B,WAAW,EAAE,wBAAwB,GACtC"
 }
