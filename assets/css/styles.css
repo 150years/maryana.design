@@ -1,4 +1,6 @@
-h1, h2, h3, h4, h5 { font-family: 'Abel', sans-serif; color: #9f8557; }
+body h1, body h2, body h3, body h4, body h5 { font-family: 'Abel', sans-serif; color: #9f8557; }
+
+body h1, body h2 { border-bottom: 2px solid #9f8555; margin-bottom: 24px; padding-bottom: 17px; }
 
 .navbar-brand { font-size: 22px !important; font-family: 'Zen Tokyo Zoo', cursive; }
 
@@ -8,8 +10,8 @@ h1, h2, h3, h4, h5 { font-family: 'Abel', sans-serif; color: #9f8557; }
 
 .thumb .info .text { margin: 0 40px; background-color: rgba(255, 255, 255, 0.9); font-family: 'Abel', sans-serif; }
 
-.thumb .info .text .btn { color: #9f8557; border: 1px solid #9f8557; letter-spacing: .35em; }
+.thumb .info .text .btn { color: #9f8555; border: 1px solid #9f8555; letter-spacing: .35em; }
 
-.thumb .info .text .btn:hover { color: #FFFFFF; background-color: #9f8557; border: 1px solid #9f8557; }
+.thumb .info .text .btn:hover { color: #FFFFFF; background-color: #9f8555; border: 1px solid #9f8555; }
 
 /*# sourceMappingURL=styles.css.map */
