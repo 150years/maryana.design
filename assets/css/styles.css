@@ -2,7 +2,11 @@ body h1, body h2, body h3, body h4, body h5 { font-family: 'Abel', sans-serif; c
 
 body h1, body h2 { border-bottom: 2px solid #9f8555; margin-bottom: 24px; padding-bottom: 17px; }
 
-.navbar-brand { font-size: 22px !important; font-family: 'Zen Tokyo Zoo', cursive; }
+body a { color: #9f8555 !important; text-decoration: none; }
+
+body a:hover { color: #333 !important; text-decoration: none; }
+
+.logo { color: #333 !important; font-family: 'Zen Tokyo Zoo', cursive; font-size: 22px !important; }
 
 .thumb { position: relative; }
 
@@ -13,5 +17,7 @@ body h1, body h2 { border-bottom: 2px solid #9f8555; margin-bottom: 24px; paddin
 .thumb .info .text .btn { color: #9f8555; border: 1px solid #9f8555; letter-spacing: .35em; }
 
 .thumb .info .text .btn:hover { color: #FFFFFF; background-color: #9f8555; border: 1px solid #9f8555; }
+
+footer { border-top: 2px solid #9f8555; margin-top: 48px; }
 
 /*# sourceMappingURL=styles.css.map */
