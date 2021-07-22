@@ -1,12 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
+<div class="row py-3">
+  <div class="col-md pb-3 pb-md-0">
+    <img src="/assets/images/projects/{{page.folder}}/00.jpg" class="img-fluid" width="648" height="864" alt="{{page.alt}}"></div>
+  <div class="col d-flex align-items-center"><h1>{{ page.project }}</h1></div>
+</div>
+
+{% assign is = site.static_files | where: "project", page.folder %}
+<div class="row row-cols-1 row-cols-md-2">
+{% for i in is %}
+  {% if forloop.index == 1 %}
+    {% continue %}
+  {% else %}
+  <div class="col">
+    <img src="{{ i.path }}" class="img-fluid pb-3" width="636" alt="Photo {{page.project}} {{ forloop.index }}">
+  </div>
   {% endif %}
-</p>
-{{ content }}
+{% endfor %}
+</div>

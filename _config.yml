@@ -12,11 +12,6 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
@@ -24,3 +19,19 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "assets/images/projects/1"
+    values:
+      project: 1
+  - scope:
+      path: "assets/images/projects/2"
+    values:
+      project: 2
+  - scope:
+      path: "assets/images/projects/3"
+    values:
+      project: 3
+  - scope:
+      path: "assets/images/projects/4"
+    values:
+      project: 4
