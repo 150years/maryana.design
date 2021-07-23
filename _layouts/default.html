@@ -19,8 +19,12 @@
       <header>
         <nav class="navbar navbar-light bg-light">
           <div class="container-fluid">
-            {% assign url = site.languages | find: "code", page.lang %}
-            <a class="navbar-brand logo" href="{{url.slug}}">
+            {% assign lang_data = site.languages | find: "code", page.lang %}
+            {% assign url = lang_data.slug %}
+            {% if url == "" %}
+              {% assign url = "/" %}
+            {% endif %}
+            <a class="navbar-brand logo" href="{{ url }}">
             MARYANA.INTERIOR.DESIGN
             </a>
             <span class="navbar-text text-center text-md-end">
@@ -40,7 +44,11 @@
                   {% if l.code == page.lang %}
                     {{ l.name }}
                   {% else %}
-                    <a href="{{l.slug}}{{ page.slug }}" class="{{ disabled }}">{{ l.name }}</a>
+                    {% assign url = l.slug | append: page.slug %}
+                    {% if url == "" %}
+                      {% assign url = "/" %}
+                    {% endif %}
+                    <a href="{{ url }}" class="{{ disabled }}">{{ l.name }}</a>
                   {% endif %}
                 {% endfor %}
               </p>
@@ -52,8 +60,13 @@
         {{ content }}
       </main>
       <footer class="text-center py-4 bg-light">
-        <a class="logo" href="/">
-            MARYANA.INTERIOR.DESIGN
+        {% assign lang_data = site.languages | find: "code", page.lang %}
+        {% assign url = lang_data.slug %}
+        {% if url == "" %}
+          {% assign url = "/" %}
+        {% endif %}
+        <a class="logo" href="{{ url }}">
+        MARYANA.INTERIOR.DESIGN
         </a>
         <div class="py-3">
           <a href="https://wa.me/+66805293353">
