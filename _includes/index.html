@@ -1,0 +1,16 @@
+{% assign t = site.data.I18n[page.lang] %}
+<div class="row row-cols-1 row-cols-md-3 gy-4 pt-3">
+  {% assign ps = site.portfolio | where: "lang", page.lang | reverse %}
+  {% for p in ps %}
+    <div class="col">
+      <div class="thumb">
+        <img src="/assets/images/projects/{{p.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864" alt="Photo {{p.alt}}">
+        <div class="info">
+          <div class="text">
+            <h4>{{p.project}}</h4>
+            <a href="{{p.collection}}/{{p.number}}" class="btn btn-outline-info">{{ t['more'] }}</a></div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

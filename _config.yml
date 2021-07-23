@@ -1,20 +1,33 @@
+title: "Maryana.Interior.Design"
+url: "https://maryana.design"
+social:
+  name: Maryana Interior Design
+  links:
+    - https://instagram.com/maryana.interior.design
+    - https://www.pinterest.com/maryana_interior_design
+    - https://web.facebook.com/maryana.interior.design
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-title: "Maryana.Design"
-
 collections:
-  authors:
+  pages:
+    output: true
+    order:
+      - en.index.html
+      - ru.index.html
+      - th.imdex.html
+  portfolio:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "portfolio"
     values:
-      layout: "post"
+      layout: "project"
   - scope:
       path: ""
     values:
@@ -35,3 +48,18 @@ defaults:
       path: "assets/images/projects/4"
     values:
       project: 4
+  - scope:
+      path: "assets/images/projects/5"
+    values:
+      project: 5
+
+languages:
+  - code: en
+    slug: /
+    name: Eng
+  - code: ru
+    slug: /ru/
+    name: Рус
+  - code: th
+    slug: /th/
+    name: ไทย

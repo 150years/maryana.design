@@ -6,6 +6,7 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
@@ -18,10 +19,11 @@
       <header>
         <nav class="navbar navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand logo" href="/">
+            {% assign url = site.languages | find: "code", page.lang %}
+            <a class="navbar-brand logo" href="{{url.slug}}">
             MARYANA.INTERIOR.DESIGN
             </a>
-            <span class="navbar-text">
+            <span class="navbar-text text-center text-md-end">
               <a href="https://wa.me/+66805293353 navbar-link">
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
               </a>
@@ -32,6 +34,16 @@
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 mail@maryana.design
               </a>
+              <p>
+                {% for l in site.languages %}
+                  {% assign disabled = "" %}
+                  {% if l.code == page.lang %}
+                    {{ l.name }}
+                  {% else %}
+                    <a href="{{l.slug}}{{ page.slug }}" class="{{ disabled }}">{{ l.name }}</a>
+                  {% endif %}
+                {% endfor %}
+              </p>
             </span>
           </div>
         </nav>
