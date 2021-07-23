@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://maryana.design/sitemap.xml
