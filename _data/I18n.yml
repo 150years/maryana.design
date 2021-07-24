@@ -1,18 +1,9 @@
 en:
   more: SEE MORE
-  interior: Interior design for
-  villa: ' villa'
-  apartment: ' apartment'
-  in: ' in'
+  photo_alt: Photo of
 ru:
   more: ПЕРЕЙТИ
-  interior: Дизайн интерьера для
-  villa: ' виллы'
-  apartment: ' квартиры'
-  in: ' в комплексе'
+  photo_alt: Фото к работе
 th:
   more: ดูเพิ่ม
-  interior: การออกแบบตกแต่งภายในของ
-  villa: วิลล่า
-  apartment: ห้อง
-  in: ที่
+  photo_alt: รูปของ
