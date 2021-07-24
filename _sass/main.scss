@@ -48,13 +48,21 @@ body a:hover {
       }
 
       .btn:hover {
-        color: #FFFFFF;
+        color: #FFFFFF !important;
         background-color: #9f8555;
         border: 1px solid #9f8555;
       }
     }
   }
 }
+
+input[type=submit] {
+  background-color: #9f8555 !important;
+}
+input[type=submit]:hover {
+  background-color: #887249 !important;
+}
+
 
 .project_descr {
   margin-left: 100px;
