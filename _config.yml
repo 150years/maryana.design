@@ -1,5 +1,8 @@
 title: "Maryana.Interior.Design"
-url: "https://maryana.design"
+url: "https://www.maryana.design"
+author:
+  name: "Maryana Kotova"
+  email: "mail@maryana.design"
 social:
   name: Maryana Interior Design
   links:
@@ -63,3 +66,11 @@ languages:
   - code: th
     slug: /th
     name: ไทย
+
+feed:
+  collections:
+    portfolio:
+      categories:
+        - en
+        - ru
+        - th

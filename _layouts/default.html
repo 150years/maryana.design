@@ -8,7 +8,7 @@
       {% if page.title != "Home" %}
         {{ page.description }} | {{ site.title }}
       {% else %}
-        {{ site.title }}
+        {{ site.title }} | {{ page.tagline }}
       {% endif %}
     </title>
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/6764665e41.js"></script>
-    {% feed_meta %}
+    <link type="application/atom+xml" rel="alternate" href="https://www.maryana.design/feed/portfolio/{{page.lang}}.xml" title="Maryana.Interior.Design">
     {% seo %}
   </head>
   <body>
@@ -90,6 +90,9 @@
           </a>
           <a href="https://web.facebook.com/maryana.interior.design">
             <i class="fa fa-facebook-official fa-2x px-2" aria-hidden="true"></i>
+          </a>
+          <a href="/feed/portfolio/{{page.lang}}.xml" target="_blank">
+            <i class="fa fa-rss fa-2x px-2" aria-hidden="true"></i>
           </a>
         </div>
         <div>
