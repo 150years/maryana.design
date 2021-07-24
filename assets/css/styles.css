@@ -10,13 +10,15 @@ body a:hover { color: #333 !important; text-decoration: none; }
 
 .thumb { position: relative; }
 
-.thumb .info { position: absolute; bottom: -5px; width: 100%; text-align: center; }
+.thumb .info { position: absolute; bottom: -10px; width: 100%; text-align: center; }
 
-.thumb .info .text { margin: 0 40px; background-color: rgba(255, 255, 255, 0.9); font-family: 'Abel', sans-serif; }
+.thumb .info .text { margin: 0 40px; background-color: rgba(255, 255, 255, 0.9); font-family: 'Abel', sans-serif; padding: 5px 0; }
 
 .thumb .info .text .btn { color: #9f8555; border: 1px solid #9f8555; letter-spacing: .35em; }
 
 .thumb .info .text .btn:hover { color: #FFFFFF; background-color: #9f8555; border: 1px solid #9f8555; }
+
+.project_descr { margin-left: 100px; }
 
 footer { border-top: 2px solid #9f8555; margin-top: 48px; }
 
