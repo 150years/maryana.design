@@ -1,5 +1,5 @@
 {% assign t = site.data.I18n[page.lang] %}
-<div class="row row-cols-1 row-cols-md-3 gy-4 pt-3">
+<div class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
   {% assign ps = site.portfolio | where: "lang", page.lang | reverse %}
   {% for p in ps %}
     <div class="col">

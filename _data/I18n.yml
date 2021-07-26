@@ -1,9 +1,18 @@
 en:
   more: SEE MORE
   photo_alt: Photo of
+  subscribe:
+    title: GET UPDATES IN YOUR INBOX
+    button: Subscribe
 ru:
   more: ПЕРЕЙТИ
   photo_alt: Фото к работе
+  subscribe:
+    title: ПОЛУЧАЙ НОВЫЕ РАБОТЫ НА ПОЧТУ
+    button: Подписаться
 th:
   more: ดูเพิ่ม
   photo_alt: รูปของ
+  subscribe:
+    title: GET UPDATES IN YOUR INBOX
+    button: Subscribe
