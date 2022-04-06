@@ -55,6 +55,15 @@ defaults:
       path: "assets/images/projects/5"
     values:
       project: 5
+  - scope:
+      path: "assets/images/projects/6"
+    values:
+      project: 6
+  - scope:
+      path: "assets/images/projects/7"
+    values:
+      project: 7
+
 
 languages:
   - code: en
