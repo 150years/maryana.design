@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.maryana.design/</loc>
-<lastmod>2022-04-17T01:27:32+07:00</lastmod>
+<lastmod>2022-05-02T23:36:32+07:00</lastmod>
 </url>
 <url>
 <loc>https://www.maryana.design/ru</loc>
-<lastmod>2022-04-17T01:27:32+07:00</lastmod>
+<lastmod>2022-05-02T23:36:32+07:00</lastmod>
 </url>
 <url>
 <loc>https://www.maryana.design/th</loc>
-<lastmod>2022-04-17T01:27:32+07:00</lastmod>
+<lastmod>2022-05-02T23:36:32+07:00</lastmod>
 </url>
 <url>
 <loc>https://www.maryana.design/portfolio/1</loc>
@@ -107,5 +107,17 @@
 <url>
 <loc>https://www.maryana.design/th/portfolio/8</loc>
 <lastmod>2022-04-16T10:01:00+07:00</lastmod>
+</url>
+<url>
+<loc>https://www.maryana.design/portfolio/9</loc>
+<lastmod>2022-05-01T10:01:00+07:00</lastmod>
+</url>
+<url>
+<loc>https://www.maryana.design/ru/portfolio/9</loc>
+<lastmod>2022-05-01T10:01:00+07:00</lastmod>
+</url>
+<url>
+<loc>https://www.maryana.design/th/portfolio/9</loc>
+<lastmod>2022-05-01T10:01:00+07:00</lastmod>
 </url>
 </urlset>
