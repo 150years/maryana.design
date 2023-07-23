@@ -1,18 +1,22 @@
 en:
   more: SEE MORE
   photo_alt: Photo of
+  location: Location
+  map: show on map
   subscribe:
     title: GET UPDATES IN YOUR INBOX
     button: Subscribe
 ru:
   more: ПЕРЕЙТИ
   photo_alt: Фото к работе
+  location: Локация
   subscribe:
     title: ПОЛУЧАТЬ НОВЫЕ РАБОТЫ НА ПОЧТУ
     button: Подписаться
 th:
   more: ดูเพิ่ม
   photo_alt: รูปของ
+  location: ตำแหน่ง
   subscribe:
     title: GET UPDATES IN YOUR INBOX
     button: Subscribe
