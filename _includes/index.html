@@ -4,10 +4,10 @@
   {% for p in ps %}
     <div class="col">
       <div class="thumb">
-        <img src="/assets/images/projects/{{p.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864" alt="{{ t.photo_alt }} {{ p.description }}">
+        <a href="{{ p.url }}"><img src="/assets/images/projects/{{p.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864" alt="{{ t.photo_alt }} {{ p.description }}"></a>
         <div class="info">
           <div class="text shadow-sm">
-            <h4>{{ p.title }}</h4>
+            <a href="{{ p.url }}"><h4>{{ p.title }}</h4></a>
             <a href="{{ p.url }}" class="btn btn-outline-info">{{ t['more'] }}</a></div>
         </div>
       </div>
