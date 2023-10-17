@@ -76,6 +76,35 @@ defaults:
       path: "assets/images/projects/10"
     values:
       project: 10
+  - scope:
+      path: "assets/images/projects/11"
+    values:
+      project: 11
+  - scope:
+      path: "assets/images/projects/12"
+    values:
+      project: 12
+  - scope:
+      path: "assets/images/projects/13"
+    values:
+      project: 13
+  - scope:
+      path: "assets/images/projects/14"
+    values:
+      project: 14
+  - scope:
+      path: "assets/images/projects/15"
+    values:
+      project: 15
+  - scope:
+      path: "assets/images/projects/16"
+    values:
+      project: 16
+  - scope:
+      path: "assets/images/projects/17"
+    values:
+      project: 17
+
 
 languages:
   - code: en
