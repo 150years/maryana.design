@@ -108,6 +108,10 @@ defaults:
       path: "assets/images/projects/18"
     values:
       project: 18
+  - scope:
+      path: "assets/images/projects/19"
+    values:
+      project: 19
 
 
 languages:
