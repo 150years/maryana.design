@@ -6,13 +6,17 @@ en:
   subscribe:
     title: GET UPDATES IN YOUR INBOX
     button: Subscribe
+  about: Your expert in Interior Design - сreating individual, aesthetic and functional solutions for your space.
+  address: Phuket, Thailand
 ru:
   more: ПЕРЕЙТИ
   photo_alt: Фото к работе
   location: Локация
   subscribe:
-    title: ПОЛУЧАТЬ НОВЫЕ РАБОТЫ НА ПОЧТУ
+    title: ПОДПИСАТЬСЯ НА ОБНОВЛЕНИЯ
     button: Подписаться
+  about: Ваш эксперт в дизайне интерьера - индивидуальные, эстетичные и функциональные решения для вашего пространства.
+  address: Пхукет, Таиланд
 th:
   more: ดูเพิ่ม
   photo_alt: รูปของ
@@ -20,3 +24,5 @@ th:
   subscribe:
     title: GET UPDATES IN YOUR INBOX
     button: Subscribe
+  about: ผู้เชี่ยวชาญด้านการออกแบบภายในของคุณ - สร้างโซลูชันที่เป็นส่วนตัว, สวยงาม, และมีประสิทธิภาพ สำหรับพื้นที่ของคุณ
+  address: จังหวัดภูเก็ตประเทศไทย
