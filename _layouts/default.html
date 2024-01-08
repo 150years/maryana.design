@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       {% if page.title != "Home" %}
-        {{ page.description }} | {{ site.title }}
+        {{ page.description }}, {{ page.loc }} | {{ site.title }}
       {% else %}
         {{ site.title }} | {{ page.tagline }}
       {% endif %}
@@ -86,6 +86,15 @@
             MARYANA.INTERIOR.DESIGN
             </a>
             <p>{{ t.about }}</p>
+            <p>
+              <a href="tel:+66875558155">
+                +6680 529 3353
+              </a>
+              <a href="mailto:mail@maryana.design">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                mail@maryana.design
+              </a>
+            </p>
             <div class="d-flex align-items-end justify-content-center">
               <a href="https://wa.me/66805293353">
                 <i class="fa fa-whatsapp fa-2x px-2" aria-hidden="true"></i>
@@ -125,15 +134,6 @@
             <!--End mc_embed_signup-->
           </div>
           <div>
-            <p>
-              <a href="tel:+66875558155">
-                +6680 529 3353
-              </a>
-              <a href="mailto:mail@maryana.design">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                mail@maryana.design
-              </a>
-            </p>
             <p>{{ t.address }}</p>
             <p>&copy; 2021 - {{ 'now' | date: "%Y" }}, www.maryana.design</p>
           </div>
