@@ -6,6 +6,7 @@ en:
   subscribe:
     title: GET UPDATES IN YOUR INBOX
     button: Subscribe
+  tagline: Interior design Phuket, Thailand
   about: Your expert in Interior Design - сreating individual, aesthetic and functional solutions for your space.
   address: Phuket, Thailand
 ru:
@@ -15,6 +16,7 @@ ru:
   subscribe:
     title: ПОДПИСАТЬСЯ НА ОБНОВЛЕНИЯ
     button: Подписаться
+  tagline: Дизайн интерьера Пхукет, Таиланд
   about: Ваш эксперт в дизайне интерьера - индивидуальные, эстетичные и функциональные решения для вашего пространства.
   address: Пхукет, Таиланд
 th:
@@ -24,5 +26,6 @@ th:
   subscribe:
     title: GET UPDATES IN YOUR INBOX
     button: Subscribe
+  tagline: ออกแบบตกแต่งภายใน ภูเก็ต ประเทศไทย
   about: ผู้เชี่ยวชาญด้านการออกแบบภายในของคุณ - สร้างโซลูชันที่เป็นส่วนตัว, สวยงาม, และมีประสิทธิภาพ สำหรับพื้นที่ของคุณ
   address: จังหวัดภูเก็ตประเทศไทย
