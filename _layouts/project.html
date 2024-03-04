@@ -12,9 +12,10 @@ layout: default
     <p>{{ content }}</p>
     {% if page.loc %}
       <p>
-        {{ t.location }}: {{ page.loc }}, <a href="{{ page.map }}" target="_blank">show on map</a>
+        {{ t.location }}: {{ page.loc }} | <a href="{{ page.map }}" target="_blank">show on map</a>
       </p>
     {% endif %}
+    <p>{{ t.completed }}: {{ page.date | date: "%B %Y" }}</p>
     </div>
   </div>
 </div>
