@@ -1,21 +1,17 @@
-{% assign t = site.data.I18n[page.lang] %}
-<!-- Set home path -->
-{% assign lang_data = site.languages | find: "code", page.lang %}
-{% assign home_path = lang_data.slug %}
-{% if home_path == "" %}
-  {% assign home_path = "/" %}
-{% endif %}
-
-{% capture generated_title %}
-  {% if page.title != "Home" %}
+{% assign t = site.data.I18n[page.lang] -%}
+{% assign lang_data = site.languages | find: "code", page.lang -%}
+{% assign home_path = lang_data.slug -%}
+{% if home_path == "" -%}
+  {% assign home_path = "/" -%}
+{% endif -%}
+{% capture generated_title -%}
+  {% if page.title != "Home" -%}
     {{ page.description }}, {{ page.loc }} | {{ site.title }}
-  {% else %}
+  {% else -%}
     {{ site.title }} | {{ page.tagline }}
-  {% endif %}
-{% endcapture %}
-
-{% assign generated_title = generated_title | strip %}
-
+  {% endif -%}
+{% endcapture -%}
+{% assign generated_title = generated_title | strip -%}
 <!doctype html>
 <html>
   <head>
