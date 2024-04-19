@@ -10,6 +10,12 @@ en:
   about: Your expert in Interior Design - сreating individual, aesthetic and functional solutions for your space.
   address: Phuket, Thailand
   completed: Completed
+  about_page:
+    about_me: About Me
+  menu:
+    home: Home maryana.interior.design
+    portfolio: Portfolio
+    about: About
 ru:
   more: ПЕРЕЙТИ
   photo_alt: Фото к работе
@@ -21,7 +27,12 @@ ru:
   about: Ваш эксперт в дизайне интерьера - индивидуальные, эстетичные и функциональные решения для вашего пространства.
   address: Пхукет, Таиланд
   completed: Окончание
-  about_me: Обо мне
+  about_page:
+    about_me: Обо мне
+  menu:
+    home: Главная maryana.interior.design
+    portfolio: Портфолио
+    about: Обо мне
 th:
   more: ดูเพิ่ม
   photo_alt: รูปของ
@@ -33,3 +44,9 @@ th:
   about: ผู้เชี่ยวชาญด้านการออกแบบภายในของคุณ - สร้างโซลูชันที่เป็นส่วนตัว, สวยงาม, และมีประสิทธิภาพ สำหรับพื้นที่ของคุณ
   address: จังหวัดภูเก็ตประเทศไทย
   completed: เสร็จสิ้น
+  about_page:
+    about_me: เกี่ยวกับฉัน
+  menu:
+    home: หน้าแรก maryana.interior.design
+    portfolio: ผลงาน
+    about: เกี่ยวกับ
