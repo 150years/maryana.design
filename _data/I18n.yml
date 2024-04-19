@@ -11,7 +11,32 @@ en:
   address: Phuket, Thailand
   completed: Completed
   about_page:
-    about_me: About Me
+    about_me: About
+    name: Maryana Kotova
+    position: Interior Designer
+    header: Modern interior for your home in Thailand
+    description: I specialize in crafting exquisite design projects tailored for villas and apartments nestled within the enchanting landscapes of Thailand. With a wealth of experience, I possess an in-depth understanding of materials best suited for the region's unique climate. Each of my creations is a manifestation of individuality, meticulously curated to mirror the distinct preferences and desires of my clients. Embodying the essence of modern aesthetics, my designs epitomize the pursuit of beauty and comfort, offering a serene haven for an enriching and luxurious lifestyle.
+    wa_number: +66805293353
+    years: 14 years
+    company_on_market: Company on market
+    projects: 30+
+    projects_in_portfolio: Projects in portfolio
+    write_in_wa: Write in WhatsApp
+    benefits_title: Benefits of working with me
+    benefits:
+      - title: Professional vision
+        description: and understanding of the latest trends
+      - title: Knowledge of material quality
+        description: and how furniture will behave in the climate conditions
+      - title: Use of only natural materials
+        description: and quality furniture. No MDF and other toxic materials
+      - title: Own furniture factories
+        description: in Chiang Mai, Bangkok, Indonesia, working under my individual order
+      - title: Working with Premium class villas and apartments
+        description: as well as creating interiors for investment real estate
+      - title: Turnkey work
+        description: and on time
+    visit_portfolio: Visit Portfolio
   menu:
     home: Home maryana.interior.design
     portfolio: Portfolio
@@ -29,6 +54,31 @@ ru:
   completed: Окончание
   about_page:
     about_me: Обо мне
+    name: Марьяна Котова
+    position: Дизайнер интерьеров
+    header: Современный интерьер для вашего дома в Таиланде
+    description: Создаю дизайн-проекты для вилл и аппартаментов в Тайланде. Благодаря большому опыту знаю все о материалах, подходящих для местного климата. Мои интерьеры отражают индивидуальность и пожелания закачика. Это современный дизайн для красивой и комфортной жизни.
+    wa_number: +66805293353
+    years: 14 лет
+    company_on_market: На рынке
+    projects: 30+
+    projects_in_portfolio: Проектов в портфолио
+    write_in_wa: Написать в WhatsApp
+    benefits_title: Преимущества работы со мной
+    benefits:
+      - title: Профессиональное видение
+        description: и понимание последних тенденций
+      - title: Знание о качестве материалов
+        description: и о том, как мебель поведет себя в условиях климата
+      - title: Использование только натуральных материалов
+        description: И качественной мебели. Никакого ДСП и прочих токсичных материалов
+      - title: Свои фабрики мебели
+        description: в Чанг Мае, Бангкоке, Индонезии, работающие под мой индивидуальны заказ
+      - title: Работаю с виллами и апартаментами Premium класса
+        description: а так же создаю интерьер для инвестиционной недвижимости
+      - title: Работа под ключ
+        description: и точно в срок
+    visit_portfolio: Перейти в портфолио
   menu:
     home: Главная maryana.interior.design
     portfolio: Портфолио
@@ -46,7 +96,32 @@ th:
   completed: เสร็จสิ้น
   about_page:
     about_me: เกี่ยวกับฉัน
+    name: Maryana Kotova
+    position: นักออกแบบภายใน
+    header: ออกแบบภายในสมัยใหม่สำหรับบ้านของคุณในประเทศไทย
+    description: ฉันเชี่ยวชาญในการสร้างโครงการออกแบบที่ยอดเยี่ยมที่ปรับให้เหมาะกับวิลล่าและอพาร์ทเม้นที่ตั้งอยู่ในภูมิประเทศที่สวยงามของประเทศไทย ด้วยประสบการณ์ที่มากมาย ฉันมีความเข้าใจลึกลงเกี่ยวกับวัสดุที่เหมาะที่สุดสำหรับสภาพอากาศที่เป็นเอกลักษณ์ของภูมิภาคนี้ แต่ละสร้างของฉันเป็นการแสดงออกของความเป็นเอกลักษณ์ ที่ถูกคัดสรรอย่างละเอียดเพื่อสะท้อนความชอบและความต้องการที่แตกต่างของลูกค้า แสดงถึงความสมบูรณ์และความสะดวกสบาย ให้สถานที่พักผ่อนที่เงียบสงบสำหรับการดำเนินชีวิตที่เติบโตและหรูหรา
+    wa_number: +66805293353
+    years: 14 ปี
+    company_on_market: บริษัทในตลาด
+    projects: 30+
+    projects_in_portfolio: โครงการในพอร์ตโฟลิโอ
+    write_in_wa: เขียนใน WhatsApp
+    benefits_title: ประโยชน์ของการทำงานกับฉัน
+    benefits:
+      - title: วิสัยทัศน์อาชีพ
+        description: และความเข้าใจเกี่ยวกับแนวโน้มล่าสุด
+      - title: ความรู้เกี่ยวกับคุณภาพวัสดุ
+        description: และวิธีการที่เฟอร์นิเจอร์จะทำงานในสภาพอากาศ
+      - title: ใช้วัสดุธรรมชาติเท่านั้น
+        description: และเฟอร์นิเจอร์คุณภาพ เช่นไม่มี MDF และวัสดุพิษอื่น ๆ
+      - title: โรงงานเฟอร์นิเจอร์ของตัวเอง
+        description: ในเชียงใหม่, กรุงเทพ, อินโดนีเซีย, ทำงานภายใต้คำสั่งของฉันเป็นรายบุคคล
+      - title: ทำงานกับวิลล่าและอพาร์ทเม้นระดับพรีเมี่ยม
+        description: และสร้างอินทีเรียร์สำหรับอสังหาริมทรัพย์ลงทุน
+      - title: ทำงานเสร็จสมบูรณ์
+        description: และตรงเวลา
+    visit_portfolio: ไปที่พอร์ตโฟลิโอ
   menu:
     home: หน้าแรก maryana.interior.design
-    portfolio: ผลงาน
+    portfolio: พอร์ตโฟลิโอ
     about: เกี่ยวกับ
