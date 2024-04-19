@@ -1,22 +1,23 @@
-{% assign t = site.data.I18n[page.lang] %}
-<!-- Set home path -->
-{% assign lang_data = site.languages | find: "code", page.lang %}
-{% assign home_path = lang_data.slug %}
-{% if home_path == "" %}
-  {% assign home_path = "/" %}
-{% endif %}
+{% assign t = site.data.I18n[page.lang] -%}
+{% assign lang_data = site.languages | find: "code", page.lang -%}
+{% assign home_path = lang_data.slug -%}
+{% if home_path == "" -%}
+  {% assign home_path = "/" -%}
+{% endif -%}
+{% capture generated_title -%}
+  {% if page.title != "Home" -%}
+    {{ page.description }}, {{ page.loc }} | {{ site.title }}
+  {% else -%}
+    {{ site.title }} | {{ page.tagline }}
+  {% endif -%}
+{% endcapture -%}
+{% assign generated_title = generated_title | strip -%}
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-      {% if page.title != "Home" %}
-        {{ page.description }}, {{ page.loc }} | {{ site.title }}
-      {% else %}
-        {{ site.title }} | {{ page.tagline }}
-      {% endif %}
-    </title>
+    <title>{{ generated_title }}</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
@@ -37,7 +38,7 @@
     </script>
     <meta name="yandex-verification" content="1f2279cd2a242362" />
     <link type="application/atom+xml" rel="alternate" href="https://www.maryana.design/feed/portfolio/{{page.lang}}.xml" title="Maryana.Interior.Design">
-    {% seo %}
+    {% seo title=false %}
   </head>
   <body>
     <div class="container">
