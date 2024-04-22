@@ -65,3 +65,8 @@ footer {
   border-top: 2px solid #9f8555;
   margin-top: 48px;
 }
+
+.cropped-img {
+  object-fit: cover;
+  height: 200px; /* Adjust the height as needed */
+}

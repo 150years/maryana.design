@@ -1,0 +1,117 @@
+{% assign t = site.data.I18n[page.lang] -%}
+{% assign lang_data = site.languages | find: "code", page.lang -%}
+<div class="py-4">
+  <h1>{{ t.about_page.about_me }}</h1>
+  <div class="row flex-column-reverse flex-md-row pt-4">
+    <div class="col-12 col-sm-8 d-flex flex-column justify-content-center p-4">
+      <h3 class="mb-4">{{ t.about_page.header }}</h3>
+      <p>{{ t.about_page.description }}</p>
+      <div class="container mt-4 pb-5">
+        <div class="row">
+          <div class="col-md-6 pb-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1 class="card-title">{{ t.about_page.years }}</h1>
+                <p class="card-text">{{ t.about_page.company_on_market }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1 class="card-title">{{ t.about_page.projects }}</h1>
+                <p class="card-text">{{ t.about_page.projects_in_portfolio }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <a href="https://wa.me/{{ t.about_page.wa_number }}" class="text-white btn btn-lg d-block w-100"
+            style="background-color: #9f8555; color: white;" target="_blank">{{ t.about_page.write_in_wa }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 p-2">
+      <div class="text-center">
+        <img src="/assets/images/about_me.jpg" alt="{{ t.about_page.name }}" class="img-fluid rounded shadow">
+      </div>
+      <div class="row mt-3">
+        <div class="col">
+          <h2>{{ t.about_page.name }}</h2>
+        </div>
+        <div class="col text-end">
+          <span class="text-black fw-lighter fs-5">{{ t.about_page.position }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="mt-5">{{ t.about_page.benefits_title }}</h2>
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-between">
+          <div class="flex-grow-1">
+            <h3>{{ t.about_page.benefits[0].title }}</h3>
+            <p>{{ t.about_page.benefits[0].description }}</p>
+          </div>
+          <p class="text-muted mb-0">
+            <hr>/01
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-between">
+          <div class="flex-grow-1">
+            <h3>{{ t.about_page.benefits[1].title }}</h3>
+            <p>{{ t.about_page.benefits[1].description }}</p>
+          </div>
+          <p class="text-muted mb-0">
+            <hr>/02
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-between">
+          <div class="flex-grow-1">
+            <h3>{{ t.about_page.benefits[2].title }}</h3>
+            <p>{{ t.about_page.benefits[2].description }}</p>
+          </div>
+          <p class="text-muted mb-0">
+            <hr>/03
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-between">
+          <div class="flex-grow-1">
+            <h3>{{ t.about_page.benefits[3].title }}</h3>
+            <p>{{ t.about_page.benefits[3].description }}</p>
+          </div>
+          <p class="text-muted mb-0">
+            <hr>/04
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-between">
+          <div class="flex-grow-1">
+            <h3>{{ t.about_page.benefits[4].title }}</h3>
+            <p>{{ t.about_page.benefits[4].description }}</p>
+          </div>
+          <p class="text-muted mb-0">
+            <hr>/05
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-between">
+          <div class="flex-grow-1">
+            <h3>{{ t.about_page.benefits[5].title }}</h3>
+            <p>{{ t.about_page.benefits[5].description }}</p>
+          </div>
+          <p class="text-muted mb-0">
+            <hr>/06
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a href="{{ lang_data.slug | relative_url }}" class="card-link">
+    <div class="card text-center">
+      <img src="/assets/images/projects/13/01.jpg" class="card-img-top cropped-img" alt="...">
+      <div class="card-body">
+        <a href="{{ lang_data.slug | append: '/' | relative_url }}" class="btn btn-lg w-100">{{ t.about_page.visit_portfolio }}</a>
+      </div>
+    </div>
+  </a>
+</div>

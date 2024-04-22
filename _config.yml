@@ -21,7 +21,7 @@ collections:
     order:
       - en.index.html
       - ru.index.html
-      - th.imdex.html
+      - th.index.html
   portfolio:
     output: true
 
