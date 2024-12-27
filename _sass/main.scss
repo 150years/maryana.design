@@ -70,3 +70,7 @@ footer {
   object-fit: cover;
   height: 200px; /* Adjust the height as needed */
 }
+
+img {
+  pointer-events: none;
+}
