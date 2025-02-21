@@ -11,6 +11,11 @@ cd ..
 # Develop
 
 ```sh
+git fetch --all -p
+git checkout main
+git pull
+git reset --hard origin/main
+
 bundle exec jekyll serve
 ```
 
