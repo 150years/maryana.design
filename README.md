@@ -22,5 +22,5 @@ bundle exec jekyll serve
 
 # Specs
 
-Main image dimensions 648x848px(3x4), Resolution 240px
+Main image dimensions 636x848px(3x4), Resolution 240px
 Other images dimensions 1200px long size, Resolution 240px
