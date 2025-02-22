@@ -131,6 +131,10 @@ defaults:
       path: "assets/images/projects/24"
     values:
       project: 24
+  - scope:
+      path: "assets/images/projects/25"
+    values:
+      project: 25
 languages:
   - code: en
     slug: ""
