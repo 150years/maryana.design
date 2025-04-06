@@ -1,5 +1,6 @@
 title: "Maryana.Interior.Design"
 url: "https://www.maryana.design"
+paginate: 5
 author:
   name: "Maryana Kotova"
   email: "mail@maryana.design"
@@ -9,12 +10,13 @@ social:
     - https://instagram.com/maryana.interior.design
     - https://web.facebook.com/maryana.interior.design
 loc: Phuket
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
 collections:
   pages:
     output: true
