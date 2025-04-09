@@ -139,11 +139,15 @@ defaults:
       path: "assets/images/projects/26"
     values:
       project: 26
+  - scope:
+      path: "assets/images/projects/27"
+    values:
+      project: 27      
 languages:
   - code: en
     slug: ""
     name: Eng
-  - code: ru
+  - code:git check=g ru
     slug: /ru
     name: Рус
   - code: th
