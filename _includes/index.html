@@ -1,7 +1,7 @@
 {% assign t = site.data.I18n[page.lang] %}
 <div class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
 {% for item in paginator.posts %}
-{% for p in ps %}
+  {% for p in ps %}
     <div class="col">
       <div class="thumb">
         <a href="{{ p.url }}"><img src="/assets/images/projects/{{p.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864" alt="{{ t.photo_alt }} {{ p.description }}"></a>
