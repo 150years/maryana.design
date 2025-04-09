@@ -6,5 +6,14 @@ slug: ""
 title: Home
 tagline: ออกแบบตกแต่งภายใน ภูเก็ต ประเทศไทย
 description: งานออกแบบตกแต่งภายในและรีโนเวทในภูเก็ต ประเทศไทย รายการผลงานการออกแบบตกแต่งภายในที่ดีที่สุดของเรา
+pagination:
+  enabled: true
+  collection: portfolio
+  per_page: 6
+  permalink: /page/:num/
+  category: th
+  sort_field: "number"
+  sort_reverse: true
 ---
 {% include index.html %}
+{% include pagination.html %}

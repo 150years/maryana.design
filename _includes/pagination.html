@@ -1,0 +1,15 @@
+{% assign t = site.data.I18n[page.lang].pagination %}
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="page-link prev" href="{{ paginator.previous_page_path }}">{{ t.previous }}</a>
+  {% endif %}
+
+  {% assign page_label = t.page | replace: "%{current}", paginator.page %}
+  {% assign page_label = page_label | replace: "%{total}", paginator.total_pages %}
+  <span class="page-info">{{ page_label }}</span>
+
+  {% if paginator.next_page %}
+    <a class="page-link next" href="{{ paginator.next_page_path }}">{{ t.next }}</a>
+  {% endif %}
+</div>
