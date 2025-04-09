@@ -147,13 +147,12 @@ languages:
   - code: en
     slug: ""
     name: Eng
-  - code:git check=g ru
+  - code: ru
     slug: /ru
     name: Рус
   - code: th
     slug: /th
     name: ไทย
-
 feed:
   collections:
     portfolio:
