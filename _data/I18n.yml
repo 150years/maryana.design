@@ -41,6 +41,10 @@ en:
     home: Home maryana.interior.design
     portfolio: Portfolio
     about: About
+  pagination:
+    previous: "← Previous"
+    next: "Next →"
+    page: "Page %{current} of %{total}"
 ru:
   more: ПЕРЕЙТИ
   photo_alt: Фото к работе
@@ -83,6 +87,10 @@ ru:
     home: Главная maryana.interior.design
     portfolio: Портфолио
     about: Обо мне
+  pagination:
+    previous: "← Назад"
+    next: "Вперёд →"
+    page: "Страница %{current} из %{total}"
 th:
   more: ดูเพิ่ม
   photo_alt: รูปของ
@@ -127,3 +135,7 @@ th:
     home: หน้าแรก maryana.interior.design
     portfolio: ผลงาน
     about: เกี่ยวกับ
+  pagination:
+    previous: "← ก่อนหน้า"
+    next: "ถัดไป →"
+    page: "หน้า %{current} จากทั้งหมด %{total}"

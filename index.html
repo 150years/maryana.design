@@ -6,5 +6,13 @@ slug: ""
 title: Home
 tagline: Interior design Phuket, Thailand
 description: Interior design and renovations in Phuket, Thailand. List of our best works in interior design.
+pagination:
+  enabled: true
+  collection: portfolio
+  permalink: /page/:num/
+  category: en
+  sort_field: "number"
+  sort_reverse: true
 ---
 {% include index.html %}
+{% include pagination.html %}
