@@ -1,6 +1,6 @@
 bundle exec jekyll build
 cd _site
-git add .
+git add -A
 git commit -m "$(date)"
 git push
 cd ..
