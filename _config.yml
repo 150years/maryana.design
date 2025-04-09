@@ -161,4 +161,4 @@ feed:
 pagination:
   enabled: true
   debug: false
-  per_page: 6
+  per_page: 3
