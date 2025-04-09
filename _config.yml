@@ -9,12 +9,10 @@ social:
     - https://instagram.com/maryana.interior.design
     - https://web.facebook.com/maryana.interior.design
 loc: Phuket
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
 collections:
   pages:
     output: true
@@ -24,7 +22,6 @@ collections:
       - th.index.html
   portfolio:
     output: true
-
 defaults:
   - scope:
       path: ""
