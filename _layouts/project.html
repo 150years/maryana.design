@@ -27,7 +27,7 @@ layout: default
     {% continue %}
   {% else %}
   <div class="col">
-    <img src="{{ i.path }}" class="img-fluid pb-3" width="636" alt="{{ t.photo_alt }} {{ page.description }} {{ forloop.index }}">
+    <img src="{{ i.path }}" class="img-fluid pb-3" width="636" alt="{{ t.photo_alt }} {{ page.description }} {{ forloop.index }}" loading="lazy">
   </div>
   {% endif %}
 {% endfor %}
