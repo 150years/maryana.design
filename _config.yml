@@ -1,8 +1,12 @@
 title: "Maryana.Interior.Design"
 url: "https://www.maryana.design"
+contacts:
+  email: "info@maryana.design"
+  phone: "+66 80 529 3353"
+  phone_code: "+66805293353"
 author:
   name: "Maryana Kotova"
-  email: "mail@maryana.design"
+  email: "info@maryana.design"
 social:
   name: Maryana Interior Design
   links:
@@ -161,6 +165,14 @@ defaults:
       path: "assets/images/projects/33"
     values:
       project: 33
+  - scope:
+      path: "assets/images/projects/34"
+    values:
+      project: 34
+  - scope:
+      path: "assets/images/projects/35"
+    values:
+      project: 35
 languages:
   - code: en
     slug: ""
