@@ -11,10 +11,10 @@ cd ..
 # Get updates from Repo
 
 ```sh
-git fetch --all -p
 git checkout main
+git fetch --all -p # or just git fetch
 git pull
-git reset --hard origin/main
+git reset --hard origin/main # Not required
 
 bundle exec jekyll serve
 ```
