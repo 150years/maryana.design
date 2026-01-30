@@ -21,7 +21,7 @@ bundle exec jekyll serve
 
 # Develop
 
-## Аdd new photo
+## Аdd new project to porfolio
 1. Download photo from photograther.
 2. Create folder with name [abbriviatoin from project name]_[houseNo]. For example Botanica Forestique FQ17 → BF_FQ17.
 3. Create 3 folder on local computer
