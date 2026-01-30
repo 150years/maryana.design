@@ -68,9 +68,9 @@ prompt PROJECT_CODE "New project code" "e.g. 39"
 prompt PREVIOUS_CODE "Previous project code" "e.g. 38"
 prompt PROJECT_TITLE "Project title" "e.g. Sunrise Village Villa"
 prompt PUBLICATION_DATE "Publication date" "YYYY-MM-DD HH:MM (e.g. 2026-01-13 10:01)"
-prompt LOCATION_EN "Location name (EN)" "in english: District, Province (e.g. Bang Tao, Phuket)"
-prompt LOCATION_RU "Location name (RU)" "in russian: District, Province (e.g Бангтао, Пхукет)"
-prompt LOCATION_TH "Location name (TH)" "in thai: District, Province (e.g บางเทา, ภูเก็ต)"
+prompt LOCATION_EN "Location (EN)" "District, Province in eng (e.g. Bang Tao, Phuket)"
+prompt LOCATION_RU "Location (RU)" "District, Province in rus (e.g. Бангтао, Пхукет)"
+prompt LOCATION_TH "Location (TH)" "District, Province in thai (e.g. บางเทา, ภูเก็ต)"
 prompt GOOGLE_MAP_LINK "Google map link" "https://maps.app.goo.gl/..."
 
 # Basic validation (lightweight)
