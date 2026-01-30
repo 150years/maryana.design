@@ -187,11 +187,6 @@ defaults:
       path: "assets/images/projects/38"
     values:
       project: 38
-
-  - scope:
-      path: "assets/images/projects/39"
-    values:
-      project: 39
 languages:
   - code: en
     slug: ""
