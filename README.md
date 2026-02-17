@@ -11,10 +11,10 @@ cd ..
 # Get updates from Repo
 
 ```sh
-git fetch --all -p
 git checkout main
+git fetch --all -p # or just git fetch
 git pull
-git reset --hard origin/main
+git reset --hard origin/main # Not required
 
 bundle exec jekyll serve
 ```
@@ -36,7 +36,7 @@ bundle exec jekyll serve
 6. Get updates from Repo to local machine (see above) and move to new branch.
 7. Create new folder with next running number in assets/images/projects → Copy selected photos to new folder
 8. Run script ```./add_project.sh```
-9. Check on local machine if required restart server ```bundle exec jekyll serve```
+9. Check on local machine. Sometine can see preview photo but can not see another photos - restart server should help ```bundle exec jekyll serve```
 10. Add/COmmit/Push changes to new branch
 11. Compare and create PR && Merge PR in Github
 
