@@ -155,3 +155,12 @@ footer {
 .card-title {
   color: $gold;
 }
+
+#projects-map .leaflet-popup-content a,
+#projects-map .leaflet-control a {
+  color: $gold;
+
+  &:hover {
+    color: #333;
+  }
+}
