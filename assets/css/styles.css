@@ -142,6 +142,15 @@ footer {
   color: #9f8555;
 }
 
+#projects-map .leaflet-popup-content a,
+#projects-map .leaflet-control a {
+  color: #9f8555;
+}
+#projects-map .leaflet-popup-content a:hover,
+#projects-map .leaflet-control a:hover {
+  color: #333;
+}
+
 a[target=_blank]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
   margin: 0 3px 0 5px;
