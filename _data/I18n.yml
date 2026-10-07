@@ -92,7 +92,7 @@ en:
     years: 14 years
     company_on_market: on the market
     projects: 30+
-    projects_in_portfolio: Projects in portfolio
+    projects_in_portfolio: projects in portfolio
     write_in_wa: Message us on WhatsApp
     benefits_title: Why M Studio
     benefits:
@@ -212,9 +212,9 @@ ru:
       - Координация проекта
     wa_number: +66805293353
     years: 14 лет
-    company_on_market: На рынке
+    company_on_market: на рынке
     projects: 30+
-    projects_in_portfolio: Проектов в портфолио
+    projects_in_portfolio: проектов в портфолио
     write_in_wa: Написать в WhatsApp
     benefits_title: Почему M Studio
     benefits:

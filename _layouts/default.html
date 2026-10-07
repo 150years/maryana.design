@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ generated_title }}</title>
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css?v={{ site.time | date: '%s' }}">
   <link rel="icon" type="image/png" href="/favicon.png?v=2">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -165,8 +165,7 @@
         </div>
         <div class="col-md-3">{{ t.about }}</div>
         <div class="col-md-6">
-          <a href="https://wa.me/{{ site.contacts.phone_code }}" class="text-white btn btn-lg d-block w-100"
-            style="background-color: #9f8555; color: white;" target="_blank">{{ t.about_page.write_in_wa }}</a>
+          <a href="https://wa.me/{{ site.contacts.phone_code }}" class="btn btn-gold btn-lg d-block w-100" target="_blank">{{ t.about_page.write_in_wa }}</a>
         </div>
       </div>
       <div class="pt-5">

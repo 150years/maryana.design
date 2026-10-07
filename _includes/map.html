@@ -7,7 +7,7 @@
 <div class="py-4">
   <h1>{{ t.map_page.h1 }}</h1>
   <p class="lead">{{ t.map_page.intro }}</p>
-  <div id="projects-map"></div>
+  <div id="projects-map" style="height: 600px"></div>
   <noscript>
     <ul>{% for p in projects %}<li><a href="{{ p.url }}">{{ p.title }}</a>, {{ p.loc }}</li>{% endfor %}</ul>
   </noscript>

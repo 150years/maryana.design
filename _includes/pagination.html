@@ -1,19 +1,19 @@
 {% assign lang_data = site.languages | find: "code", page.lang %}
 {% assign base = lang_data.slug %}
-<nav class="pagination" aria-label="Pagination">
+<nav class="pager" aria-label="Pagination">
   {% if paginator.previous_page %}
-    <a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous">←</a>
+    <a class="pager-link" href="{{ paginator.previous_page_path }}" aria-label="Previous">←</a>
   {% endif %}
   {% for n in (1..paginator.total_pages) %}
     {% if n == paginator.page %}
-      <span class="page-link current" aria-current="page">{{ n }}</span>
+      <span class="pager-link current" aria-current="page">{{ n }}</span>
     {% elsif n == 1 %}
-      <a class="page-link" href="{{ base | default: '/' }}">1</a>
+      <a class="pager-link" href="{{ base | default: '/' }}">1</a>
     {% else %}
-      <a class="page-link" href="{{ base }}/page/{{ n }}/">{{ n }}</a>
+      <a class="pager-link" href="{{ base }}/page/{{ n }}/">{{ n }}</a>
     {% endif %}
   {% endfor %}
   {% if paginator.next_page %}
-    <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next">→</a>
+    <a class="pager-link" href="{{ paginator.next_page_path }}" aria-label="Next">→</a>
   {% endif %}
 </nav>

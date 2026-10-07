@@ -1,23 +1,65 @@
+$gold: #9f8555;
+$gold-dark: #887249;
+$heading-font: 'Abel', 'Kanit', sans-serif;
+
+// Bootstrap 5.3 theme: gold links and focus rings instead of default blue
+:root {
+  --bs-link-color: #{$gold};
+  --bs-link-color-rgb: 159, 133, 85;
+  --bs-link-hover-color: #333;
+  --bs-link-hover-color-rgb: 51, 51, 51;
+  --bs-focus-ring-color: rgba(159, 133, 85, .35);
+  --bs-primary: #{$gold};
+  --bs-primary-rgb: 159, 133, 85;
+}
 
 body h1, body h2, body h3, body h4, body h5 {
-  font-family: 'Abel', 'Kanit', sans-serif;
-  color: #9f8557;
+  font-family: $heading-font;
+  color: $gold;
 }
 
 body h1, body h2 {
-  border-bottom: 2px solid #9f8555;
+  border-bottom: 2px solid $gold;
   margin-bottom: 24px;
   padding-bottom: 17px;
 }
 
-body a {
-  color: #9f8555 !important;
+a {
+  color: $gold;
   text-decoration: none;
+
+  &:hover {
+    color: #333;
+  }
 }
 
-body a:hover {
-  color: #333 !important;
-  text-decoration: none;
+.nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: $gold;
+
+  &:hover,
+  &:focus {
+    color: #333;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid $gold;
+  outline-offset: 2px;
+}
+
+.btn:focus,
+.btn:focus-visible,
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.btn:hover {
+  filter: brightness(.95);
+}
+
+img {
+  pointer-events: none;
 }
 
 .thumb {
@@ -32,9 +74,7 @@ body a:hover {
     .text {
       margin: 0 40px;
       padding: 1em;
-      margin-bottom: 0;
-      background-color: rgba(255,255,255,.88);
-      font-family: 'Abel', 'Kanit', sans-serif;
+      background-color: rgba(255, 255, 255, .88);
       text-align: center;
       transition: background-color .2s ease;
     }
@@ -45,61 +85,38 @@ body a:hover {
   }
 }
 
-input[type=submit] {
-  background-color: #9f8555 !important;
-}
-input[type=submit]:hover {
-  background-color: #887249 !important;
-}
-
-.project_descr {
-  margin-left: 100px;
-}
-
 footer {
-  border-top: 2px solid #9f8555;
+  border-top: 2px solid $gold;
   margin-top: 48px;
 }
 
 .cropped-img {
   object-fit: cover;
-  height: 200px; /* Adjust the height as needed */
+  height: 200px;
 }
 
-img {
-  pointer-events: none;
-}
-
-.pagination {
+.pager {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   gap: .25rem;
   margin: 3rem 0;
-  font-family: 'Abel', 'Kanit', sans-serif;
+  font-family: $heading-font;
   font-size: 1.4rem;
-  flex-wrap: wrap;
 }
 
-.page-link {
+.pager-link {
   min-width: 2.2em;
   padding: .1em .5em;
   text-align: center;
-  background: none !important;
-  border: 0 !important;
-  border-bottom: 2px solid transparent !important;
-  box-shadow: none !important;
-  margin: 0 !important;
+  border-bottom: 2px solid transparent;
   transition: border-color .2s ease;
-}
 
-a.page-link:hover {
-  border-bottom-color: #9f8555 !important;
-}
-
-.page-link.current {
-  color: #9f8555;
-  border-bottom-color: #9f8555 !important;
+  &:hover,
+  &.current {
+    color: $gold;
+    border-bottom-color: $gold;
+  }
 }
 
 #projects-map {
@@ -122,4 +139,19 @@ a.page-link:hover {
 .map-loc {
   color: #666;
   margin-bottom: 4px;
+}
+
+.btn-gold {
+  background-color: $gold;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background-color: $gold-dark;
+    color: #fff;
+  }
+}
+
+.card-title {
+  color: $gold;
 }
