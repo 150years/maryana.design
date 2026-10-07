@@ -41,6 +41,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /assets/images/og-mstudio.png
   - scope:
       path: "assets/images/projects/1"
     values:
