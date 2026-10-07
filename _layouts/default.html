@@ -5,11 +5,14 @@
 {% assign home_path = "/" -%}
 {% endif -%}
 {% capture generated_title -%}
-{% if page.title == "Home" -%}
+{% if paginator.page > 1 -%}
+{% assign pg = t.pagination.page | replace: "%{current}", paginator.page | replace: "%{total}", paginator.total_pages | downcase -%}
+{{ site.title }} | {{ t.menu.portfolio }}, {{ pg }}
+{% elsif page.title == "Home" -%}
 {{ site.title }} | {{ page.tagline }}
 {% elsif page.number -%}
 {% assign loc = page.loc | default: t.default_loc -%}
-{{ t.project_title | replace: "%title%", page.title | replace: "%loc%", loc }}
+{{ t.project_title | replace: "%title%", page.title | replace: "%n%", page.number | replace: "%loc%", loc }}
 {% else -%}
 {{ page.title | default: page.description }} | {{ site.title }}
 {% endif -%}
