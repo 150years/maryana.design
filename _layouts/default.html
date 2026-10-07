@@ -62,14 +62,14 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="bg-light">
+  <header class="bg-light">
+    <div class="container">
       <div class="row">
         <div class="col text-center text-md-start">
           <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="container">
+            <div class="container-fluid px-0">
               <a class="navbar-brand" href="{{ home_path }}">
-                <img src="/assets/images/logo-mstudio.png" width="213" height="81" alt="{{ t.menu.home }}">
+                <img src="/assets/images/logo-mstudio.png" width="158" height="60" alt="{{ t.menu.home }}">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -123,15 +123,19 @@
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+  <div class="container">
     <main>
       {{ content }}
     </main>
-    <footer class="text-center py-4 bg-light">
+  </div>
+  <footer class="text-center py-4 bg-light">
+    <div class="container">
       <div class="row px-4">
         <div class="col-md-3">
           <a href="{{ home_path }}">
-            <img src="/assets/images/logo-mstudio.png" width="213" height="81" alt="{{ site.title }} logo">
+            <img src="/assets/images/logo-mstudio.png" width="158" height="60" alt="{{ site.title }} logo">
           </a>
           <div class="px-3 navbar navbar-expand justify-content-center">
             <ul class="navbar-nav">
@@ -196,11 +200,11 @@
           <a href="{{ site.contacts.google_maps }}">{{ t.footer.google_maps }}</a> ·
           <a href="{{ site.url }}">www.maryana.design</a>
         </address>
-        <div>&copy; 2021 - {{ 'now' | date: "%Y" }}, {{ site.title }}</div>
+        <div>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</div>
       </div>
       {% include modal_line.html %}
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 
 </html>
