@@ -161,18 +161,8 @@
             style="background-color: #9f8555; color: white;" target="_blank">{{ t.about_page.write_in_wa }}</a>
         </div>
       </div>
-      <div class="pt-4">
-        <div>
-          <a href="https://wa.me/{{ site.contacts.phone_code }}">
-            <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            {{ site.contacts.phone }}
-          </a>
-          <a href="mailto:{{ site.contacts.email }}">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            {{ site.contacts.email }}
-          </a>
-        </div>
-        <div class="d-flex align-items-end justify-content-center">
+      <div class="pt-5">
+        <div class="d-flex align-items-center justify-content-center gap-3">
           <a href="https://wa.me/{{ site.contacts.phone_code }}">
             <i class="fa fa-whatsapp fa-2x px-2" aria-hidden="true"></i>
           </a>
@@ -201,7 +191,7 @@
           <a href="{{ site.contacts.google_maps }}">{{ t.footer.google_maps }}</a> ·
           <a href="{{ site.url }}">www.maryana.design</a>
         </address>
-        <div>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</div>
+        <div class="pt-3">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</div>
       </div>
       {% include modal_line.html %}
     </div>

@@ -74,28 +74,30 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: .25rem;
   margin: 3rem 0;
-  font-size: 1.1rem;
-  font-family: sans-serif;
+  font-family: 'Abel', 'Kanit', sans-serif;
+  font-size: 1.4rem;
   flex-wrap: wrap;
 }
 
 .page-link {
-  background: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #333;
-  transition: background 0.2s ease;
+  min-width: 2.2em;
+  padding: .1em .5em;
+  text-align: center;
+  background: none !important;
+  border: 0 !important;
+  border-bottom: 2px solid transparent !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  transition: border-color .2s ease;
 }
 
-.page-link:hover {
-  background: #e0e0e0; /* Just a bit darker */
+a.page-link:hover {
+  border-bottom-color: #9f8555 !important;
 }
 
-.page-info {
-  color: #666;
-  font-weight: 500;
+.page-link.current {
+  color: #9f8555;
+  border-bottom-color: #9f8555 !important;
 }
