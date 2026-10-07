@@ -51,7 +51,7 @@
   <meta name="yandex-verification" content="1f2279cd2a242362" />
   <link type="application/atom+xml" rel="alternate" href="https://www.maryana.design/feed/portfolio/{{page.lang}}.xml"
     title="{{ site.title }}">
-  {% unless page.lang == nil or paginator.page > 1 -%}
+  {% unless page.slug == nil or paginator.page > 1 -%}
   {% for l in site.languages -%}
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{{ l.slug | append: page.slug | default: '/' }}">
   {% endfor -%}
