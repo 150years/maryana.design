@@ -10,12 +10,73 @@ en:
   about: Your expert in Interior Design - сreating individual, aesthetic and functional solutions for your space.
   address: Phuket, Thailand
   completed: Completed
+  home_h1: M Studio — Interior Design in Phuket, Thailand
+  home_intro: M Studio is an interior design studio based in Phuket, Thailand. We specialize in villa and condominium interiors, turnkey furnishing, custom furniture, home staging and complete project styling.
+  project_title: "%title% Interior Design, %loc% | M Studio"
+  project_text: M Studio Interior Design completed this project in %loc%. Our studio designs and furnishes villas and condominiums across Phuket, from the first concept to the final setup — interior design, custom indoor and outdoor furniture, turnkey furnishing and styling.
+  project_links: See our services or contact us to discuss a similar project.
+  photo_alt_tpl: "%title%, %loc% — interior by M Studio, photo %n%"
+  footer:
+    whatsapp: WhatsApp
+    email: Email
+    instagram: Instagram
+    google_maps: Google Maps
+  services_page:
+    title: Services
+    h1: Interior Design Services in Phuket
+    intro: M Studio Interior Design covers the whole interior of a property in Phuket, from the first concept to the final setup.
+    items:
+      - title: Interior Design in Phuket
+        text: Interior design for private homes, holiday residences and rental properties across Phuket. Each interior is planned around the way the property will actually be used, with natural materials and warm tones suited to tropical living.
+      - title: Villa Interior Design
+        text: Complete interiors for private villas in Bang Tao, Layan, Cherngtalay and other areas of Phuket. We work with owners, developers and contractors from the initial concept to the final setup of the villa.
+      - title: Condominium Interior Design
+        text: Interiors for condominiums and apartments — for owners who live in them and for investors who rent them out.
+      - title: Turnkey Furnishing
+        text: A complete turnkey furnishing service in Phuket — furniture, lighting, appliances, outdoor furniture, artwork, textiles, kitchenware, bedding and décor, with delivery, installation and final styling.
+      - title: Furniture Packages
+        text: Furniture packages for villas and condominiums, selected for the layout and for how the property will be used — as a private home, holiday residence or rental.
+      - title: Custom Furniture
+        text: Custom indoor and outdoor furniture made to order from natural materials at factories in Chiang Mai, Bangkok and Indonesia.
+      - title: Home Staging
+        text: Home staging and furnishing for investment properties, so they are attractive, practical and ready for rental or sale.
+      - title: Interior Styling
+        text: Interior styling and decoration — artwork, textiles, décor, outdoor styling and the final setup of the property.
+  contact_page:
+    title: Contact
+    h1: Contact M Studio Interior Design
+    intro: Write to us on WhatsApp or by email to discuss your villa or condominium in Phuket.
+    phone: Phone / WhatsApp
+    email: Email
+    instagram: Instagram
+    address: Address
+    map: Open in Google Maps
   about_page:
-    about_me: About
+    about_me: About M Studio
     name: Maryana Kotova
-    position: Interior Designer
-    header: Modern interior design for your home in Thailand
-    description: As an experienced interior designer based in Phuket, Thailand, I specialize in crafting exquisite design projects tailored for villas and apartments nestled within the enchanting landscapes of Thailand. With a wealth of experience, I possess an in-depth understanding of materials best suited for the region's unique climate. Each of my creations is a manifestation of individuality, meticulously curated to mirror the distinct preferences and desires of my clients. Embodying the essence of modern aesthetics, my designs epitomize the pursuit of beauty and comfort, offering a serene haven for an enriching and luxurious lifestyle.
+    position: Founder & Lead Designer
+    header: Interior design studio in Phuket, Thailand
+    description: |
+      <p><strong>M Studio is an interior design studio based in Phuket, Thailand, specializing in complete interior solutions for private villas, condominiums and investment properties.</strong></p>
+      <p>Founded by interior designer <strong>Maryana Kotova</strong>, M Studio creates warm, contemporary interiors designed around the way each property will actually be used — whether as a private home, holiday residence or rental investment.</p>
+      <p>Our work goes beyond interior design. We provide a complete <strong>turnkey furnishing service in Phuket</strong>, including space planning, furniture selection and custom furniture, lighting, appliances, outdoor furniture, artwork, textiles, kitchenware, bedding, décor, delivery, installation and final styling.</p>
+      <p>We work closely with property owners, developers, contractors and furniture manufacturers throughout the project, coordinating the details from the initial concept to the final setup of the property.</p>
+      <p>M Studio has experience working with villas and residences across Phuket, including <strong>Bang Tao, Layan and Cherngtalay</strong>, as well as projects in developments such as Botanica and Clover Residence.</p>
+      <p>Our approach combines functionality, comfort and a relaxed contemporary aesthetic suited to tropical living. We favor natural materials, warm tones and timeless solutions rather than interiors created only for visual impact.</p>
+      <p>For investment properties, we also provide <strong>home staging and furnishing solutions</strong> designed to make the property attractive, practical and ready for rental or sale.</p>
+    services_title: "Our services include:"
+    services:
+      - Interior Design in Phuket
+      - Villa Interior Design
+      - Condominium Interior Design
+      - Turnkey Furnishing
+      - Furniture Packages
+      - Custom Furniture
+      - Outdoor Furniture & Styling
+      - Home Staging
+      - Interior Styling & Decoration
+      - Furniture Sourcing and Procurement
+      - Project Coordination
     wa_number: +66805293353
     years: 14 years
     company_on_market: Company on market
@@ -38,9 +99,11 @@ en:
         description: and on time
     visit_portfolio: Visit Portfolio
   menu:
-    home: Home maryana.interior.design
+    home: M Studio Interior Design — home
     portfolio: Portfolio
     about: About
+    services: Services
+    contact: Contact
   pagination:
     previous: "← Previous"
     next: "Next →"
@@ -56,12 +119,73 @@ ru:
   about: Ваш эксперт в дизайне интерьера - индивидуальные, эстетичные и функциональные решения для вашего пространства.
   address: Пхукет, Таиланд
   completed: Окончание
+  home_h1: M Studio — дизайн интерьера на Пхукете, Таиланд
+  home_intro: M Studio — студия дизайна интерьера на Пхукете. Мы делаем интерьеры вилл и кондоминиумов, комплектацию под ключ, мебель на заказ, хоум-стейджинг и финальную стилизацию объекта.
+  project_title: "Дизайн интерьера %title%, %loc% | M Studio"
+  project_text: Этот проект выполнила студия M Studio Interior Design, локация — %loc%. Мы проектируем и комплектуем виллы и кондоминиумы по всему Пхукету, от первой концепции до готового объекта — дизайн интерьера, мебель на заказ для дома и террасы, комплектация под ключ и стилизация.
+  project_links: Посмотрите наши услуги или напишите нам, чтобы обсудить похожий проект.
+  photo_alt_tpl: "%title%, %loc% — интерьер от M Studio, фото %n%"
+  footer:
+    whatsapp: WhatsApp
+    email: Email
+    instagram: Instagram
+    google_maps: Google Карты
+  services_page:
+    title: Услуги
+    h1: Услуги дизайна интерьера на Пхукете
+    intro: M Studio Interior Design берёт на себя весь интерьер объекта на Пхукете — от первой концепции до готового к жизни или сдаче дома.
+    items:
+      - title: Дизайн интерьера на Пхукете
+        text: Дизайн интерьера для частных домов, домов для отдыха и объектов под аренду по всему Пхукету. Каждый интерьер мы планируем под то, как объектом будут пользоваться на самом деле. Натуральные материалы и тёплые тона под тропический климат.
+      - title: Дизайн интерьера виллы
+        text: Интерьер частной виллы целиком — в Банг Тао, Лаяне, Чернгталее и других районах Пхукета. Работаем с владельцами, застройщиками и подрядчиками от концепции до финальной расстановки.
+      - title: Дизайн интерьера кондоминиума
+        text: Интерьеры кондоминиумов и апартаментов — для владельцев, которые в них живут, и для инвесторов, которые их сдают.
+      - title: Комплектация под ключ
+        text: Полная комплектация объекта на Пхукете — мебель, свет, техника, уличная мебель, картины, текстиль, посуда, постельное бельё и декор, с доставкой, сборкой и финальной стилизацией.
+      - title: Мебельные пакеты
+        text: Мебельные пакеты для вилл и кондоминиумов, подобранные под планировку и назначение объекта — для жизни, отдыха или сдачи в аренду.
+      - title: Мебель на заказ
+        text: Мебель на заказ для дома и террасы из натуральных материалов — производство в Чианг Мае, Бангкоке и Индонезии.
+      - title: Хоум-стейджинг
+        text: Хоум-стейджинг и комплектация инвестиционной недвижимости, чтобы объект выглядел привлекательно, был удобен и готов к сдаче или продаже.
+      - title: Стилизация интерьера
+        text: Стилизация и декор — картины, текстиль, декор, оформление террасы и финальная подготовка объекта.
+  contact_page:
+    title: Контакты
+    h1: Контакты M Studio Interior Design
+    intro: Напишите нам в WhatsApp или на почту, чтобы обсудить вашу виллу или кондоминиум на Пхукете.
+    phone: Телефон / WhatsApp
+    email: Email
+    instagram: Instagram
+    address: Адрес
+    map: Открыть в Google Картах
   about_page:
-    about_me: Обо мне
+    about_me: О студии M Studio
     name: Марьяна Котова
-    position: Дизайнер интерьеров
-    header: Современный интерьер для вашего дома в Таиланде
-    description: Как профессиональный дизайнер интерьера на Пхукете я создаю дизайн-проекты для вилл и аппартаментов. Благодаря большому опыту знаю все о материалах, подходящих для местного климата. Мои интерьеры отражают индивидуальность и пожелания закачика. Это современный дизайн для красивой и комфортной жизни в Таиланде.
+    position: Основатель и ведущий дизайнер
+    header: Студия дизайна интерьера на Пхукете, Таиланд
+    description: |
+      <p><strong>M Studio — студия дизайна интерьера на Пхукете. Мы делаем интерьеры под ключ для частных вилл, кондоминиумов и инвестиционной недвижимости.</strong></p>
+      <p>Студию основала дизайнер интерьера <strong>Марьяна Котова</strong>. M Studio создаёт тёплые современные интерьеры под то, как объектом будут пользоваться на самом деле: как собственным домом, домом для отдыха или объектом под аренду.</p>
+      <p>Мы не ограничиваемся дизайн-проектом. Мы делаем <strong>комплектацию под ключ на Пхукете</strong>: планировка, подбор мебели и мебель на заказ, свет, техника, уличная мебель, картины, текстиль, посуда, постельное бельё, декор, доставка, сборка и финальная стилизация.</p>
+      <p>Всё время проекта мы работаем с владельцами, застройщиками, подрядчиками и мебельными фабриками и ведём детали от первой концепции до готового объекта.</p>
+      <p>У M Studio есть проекты вилл и резиденций по всему Пхукету, в том числе в <strong>Банг Тао, Лаяне и Чернгталее</strong>, а также в комплексах Botanica и Clover Residence.</p>
+      <p>Наш подход — функциональность, комфорт и спокойная современная эстетика для жизни в тропиках. Мы выбираем натуральные материалы, тёплые тона и решения, которые не устареют, а не интерьеры ради эффектной картинки.</p>
+      <p>Для инвестиционной недвижимости мы также делаем <strong>хоум-стейджинг и комплектацию</strong>, чтобы объект был привлекательным, удобным и готовым к сдаче или продаже.</p>
+    services_title: "Наши услуги:"
+    services:
+      - Дизайн интерьера на Пхукете
+      - Дизайн интерьера виллы
+      - Дизайн интерьера кондоминиума
+      - Комплектация под ключ
+      - Мебельные пакеты
+      - Мебель на заказ
+      - Уличная мебель и оформление террас
+      - Хоум-стейджинг
+      - Стилизация и декор интерьера
+      - Подбор и закупка мебели
+      - Координация проекта
     wa_number: +66805293353
     years: 14 лет
     company_on_market: На рынке
@@ -84,9 +208,11 @@ ru:
         description: и точно в срок
     visit_portfolio: Перейти в портфолио
   menu:
-    home: Главная maryana.interior.design
+    home: M Studio Interior Design — главная
     portfolio: Портфолио
-    about: Обо мне
+    about: О студии
+    services: Услуги
+    contact: Контакты
   pagination:
     previous: "← Назад"
     next: "Вперёд →"
@@ -102,14 +228,73 @@ th:
   about: ผู้เชี่ยวชาญด้านการออกแบบภายในของคุณ - สร้างโซลูชันที่เป็นส่วนตัว, สวยงาม, และมีประสิทธิภาพ สำหรับพื้นที่ของคุณ
   address: จังหวัดภูเก็ตประเทศไทย
   completed: เสร็จสิ้น
+  home_h1: M Studio — ออกแบบตกแต่งภายใน ภูเก็ต ประเทศไทย
+  home_intro: M Studio คือสตูดิโอออกแบบตกแต่งภายในในภูเก็ต ประเทศไทย เราเชี่ยวชาญการออกแบบภายในวิลล่าและคอนโดมิเนียม การตกแต่งพร้อมเฟอร์นิเจอร์แบบครบวงจร เฟอร์นิเจอร์สั่งทำ โฮมสเตจจิ้ง และการจัดสไตล์โครงการทั้งหมด
+  project_title: "ออกแบบตกแต่งภายใน %title%, %loc% | M Studio"
+  project_text: โครงการนี้ดำเนินการโดย M Studio Interior Design ที่ %loc% สตูดิโอของเราออกแบบและตกแต่งวิลล่าและคอนโดมิเนียมทั่วภูเก็ต ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย ทั้งการออกแบบภายใน เฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอก การตกแต่งแบบครบวงจร และการจัดสไตล์
+  project_links: ดูบริการของเรา หรือติดต่อเราเพื่อพูดคุยเกี่ยวกับโครงการลักษณะเดียวกัน
+  photo_alt_tpl: "%title%, %loc% — การตกแต่งภายในโดย M Studio ภาพที่ %n%"
+  footer:
+    whatsapp: WhatsApp
+    email: อีเมล
+    instagram: Instagram
+    google_maps: Google Maps
+  services_page:
+    title: บริการ
+    h1: บริการออกแบบตกแต่งภายในในภูเก็ต
+    intro: M Studio Interior Design ดูแลงานภายในทั้งหมดของอสังหาริมทรัพย์ในภูเก็ต ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย
+    items:
+      - title: ออกแบบตกแต่งภายในในภูเก็ต
+        text: การออกแบบภายในสำหรับบ้านส่วนตัว บ้านพักตากอากาศ และอสังหาริมทรัพย์ให้เช่าทั่วภูเก็ต เราวางแผนแต่ละพื้นที่ตามการใช้งานจริง ด้วยวัสดุธรรมชาติและโทนสีอบอุ่นที่เหมาะกับการใช้ชีวิตในเขตร้อน
+      - title: ออกแบบภายในวิลล่า
+        text: การออกแบบภายในวิลล่าส่วนตัวทั้งหลังในบางเทา ลายัน เชิงทะเล และพื้นที่อื่น ๆ ของภูเก็ต เราทำงานร่วมกับเจ้าของ ผู้พัฒนาโครงการ และผู้รับเหมา ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย
+      - title: ออกแบบภายในคอนโดมิเนียม
+        text: การออกแบบภายในคอนโดมิเนียมและอพาร์ตเมนต์ สำหรับเจ้าของที่อยู่อาศัยเองและนักลงทุนที่ปล่อยเช่า
+      - title: ตกแต่งพร้อมเฟอร์นิเจอร์ครบวงจร
+        text: บริการตกแต่งครบวงจรในภูเก็ต ทั้งเฟอร์นิเจอร์ ไฟ เครื่องใช้ไฟฟ้า เฟอร์นิเจอร์ภายนอก งานศิลปะ ผ้า เครื่องครัว เครื่องนอน และของตกแต่ง พร้อมจัดส่ง ติดตั้ง และจัดสไตล์ขั้นสุดท้าย
+      - title: แพ็กเกจเฟอร์นิเจอร์
+        text: แพ็กเกจเฟอร์นิเจอร์สำหรับวิลล่าและคอนโดมิเนียม คัดเลือกตามผังและการใช้งาน ไม่ว่าจะเป็นบ้านส่วนตัว บ้านพักตากอากาศ หรือให้เช่า
+      - title: เฟอร์นิเจอร์สั่งทำ
+        text: เฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอกจากวัสดุธรรมชาติ ผลิตตามสั่งที่โรงงานในเชียงใหม่ กรุงเทพฯ และอินโดนีเซีย
+      - title: โฮมสเตจจิ้ง
+        text: โฮมสเตจจิ้งและการตกแต่งอสังหาริมทรัพย์เพื่อการลงทุน ให้ดูน่าสนใจ ใช้งานได้จริง และพร้อมให้เช่าหรือขาย
+      - title: จัดสไตล์ภายใน
+        text: การจัดสไตล์และตกแต่ง งานศิลปะ ผ้า ของตกแต่ง การจัดพื้นที่ภายนอก และการเตรียมบ้านขั้นสุดท้าย
+  contact_page:
+    title: ติดต่อ
+    h1: ติดต่อ M Studio Interior Design
+    intro: ส่งข้อความหาเราทาง WhatsApp หรืออีเมล เพื่อพูดคุยเกี่ยวกับวิลล่าหรือคอนโดมิเนียมของคุณในภูเก็ต
+    phone: โทรศัพท์ / WhatsApp
+    email: อีเมล
+    instagram: Instagram
+    address: ที่อยู่
+    map: เปิดใน Google Maps
   about_page:
-    about_me: เกี่ยวกับฉัน
+    about_me: เกี่ยวกับ M Studio
     name: Maryana Kotova
-    position: นักออกแบบภายใน
-    header: การตกแต่งภายในที่ทันสมัยสำหรับบ้านของคุณในประเทศไทย
+    position: ผู้ก่อตั้งและนักออกแบบหลัก
+    header: สตูดิโอออกแบบตกแต่งภายใน ภูเก็ต ประเทศไทย
     description: |
-      <p>ฉันเชี่ยวชาญในการรังสรรค์การออกแบบโครงการต่างๆ อย่างวิจิตรบรรจงสำหรับวิลล่าและอพาร์ทเมนท์ที่ตั้งอยู่ในภูมิประเทศอันน่าหลงใหลของประเทศไทย</p>
-      <p>ด้วยประสบการณ์ที่มากมาย ฉันมีความเข้าใจอย่างลึกซึ้งเกี่ยวกับวัสดุที่เหมาะสมที่สุดสำหรับสภาพอากาศที่เป็นเอกลักษณ์ของภูมิภาค ผลงานการสร้างสรรคแต่ละชิ้นของฉันเป็นการแสดงออกถึงความเป็นเอกลักษณ์ที่ถูกคัดสรรอย่างพิถีพิถัน เพื่อสะท้อนความชอบและความต้องการที่แตกต่างกันของลูกค้า แสดงถึงความงามและความสะดวกสบาย ให้สถานที่พักผ่อนอันเงียบสงบสำหรับไลฟ์สไตล์ที่สมบูรณ์แบบและหรูหรา"</p>
+      <p><strong>M Studio คือสตูดิโอออกแบบตกแต่งภายในในภูเก็ต ประเทศไทย ที่เชี่ยวชาญงานภายในแบบครบวงจรสำหรับวิลล่าส่วนตัว คอนโดมิเนียม และอสังหาริมทรัพย์เพื่อการลงทุน</strong></p>
+      <p>ก่อตั้งโดยนักออกแบบภายใน <strong>Maryana Kotova</strong> M Studio สร้างสรรค์งานภายในร่วมสมัยที่อบอุ่น ออกแบบตามการใช้งานจริงของแต่ละที่ ไม่ว่าจะเป็นบ้านส่วนตัว บ้านพักตากอากาศ หรืออสังหาริมทรัพย์ให้เช่า</p>
+      <p>งานของเราไม่ได้มีแค่การออกแบบ เราให้บริการ<strong>ตกแต่งพร้อมเฟอร์นิเจอร์แบบครบวงจรในภูเก็ต</strong> ทั้งการวางผังพื้นที่ การเลือกเฟอร์นิเจอร์และเฟอร์นิเจอร์สั่งทำ ไฟ เครื่องใช้ไฟฟ้า เฟอร์นิเจอร์ภายนอก งานศิลปะ ผ้า เครื่องครัว เครื่องนอน ของตกแต่ง การจัดส่ง การติดตั้ง และการจัดสไตล์ขั้นสุดท้าย</p>
+      <p>เราทำงานใกล้ชิดกับเจ้าของ ผู้พัฒนาโครงการ ผู้รับเหมา และผู้ผลิตเฟอร์นิเจอร์ตลอดโครงการ ประสานทุกรายละเอียดตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย</p>
+      <p>M Studio มีประสบการณ์กับวิลล่าและที่พักทั่วภูเก็ต รวมถึง<strong>บางเทา ลายัน และเชิงทะเล</strong> และโครงการต่าง ๆ เช่น Botanica และ Clover Residence</p>
+      <p>แนวทางของเราผสานการใช้งาน ความสบาย และสุนทรียะร่วมสมัยที่ผ่อนคลาย เหมาะกับการใช้ชีวิตในเขตร้อน เราเลือกวัสดุธรรมชาติ โทนสีอบอุ่น และโซลูชันที่ไม่ตกยุค มากกว่างานภายในที่เน้นแค่ความสวยงามภายนอก</p>
+      <p>สำหรับอสังหาริมทรัพย์เพื่อการลงทุน เรายังให้บริการ<strong>โฮมสเตจจิ้งและการตกแต่ง</strong> เพื่อให้ทรัพย์สินน่าสนใจ ใช้งานได้จริง และพร้อมให้เช่าหรือขาย</p>
+    services_title: "บริการของเรา:"
+    services:
+      - ออกแบบตกแต่งภายในในภูเก็ต
+      - ออกแบบภายในวิลล่า
+      - ออกแบบภายในคอนโดมิเนียม
+      - ตกแต่งพร้อมเฟอร์นิเจอร์ครบวงจร
+      - แพ็กเกจเฟอร์นิเจอร์
+      - เฟอร์นิเจอร์สั่งทำ
+      - เฟอร์นิเจอร์และการจัดพื้นที่ภายนอก
+      - โฮมสเตจจิ้ง
+      - จัดสไตล์และตกแต่งภายใน
+      - จัดหาและจัดซื้อเฟอร์นิเจอร์
+      - ประสานงานโครงการ
     wa_number: +66805293353
     years: 14 ปี
     company_on_market: บริษัทในตลาด
@@ -132,9 +317,11 @@ th:
         description: และตรงเวลา
     visit_portfolio: ไปที่ผลงาน
   menu:
-    home: หน้าแรก maryana.interior.design
+    home: M Studio Interior Design — หน้าแรก
     portfolio: ผลงาน
     about: เกี่ยวกับ
+    services: บริการ
+    contact: ติดต่อ
   pagination:
     previous: "← ก่อนหน้า"
     next: "ถัดไป →"

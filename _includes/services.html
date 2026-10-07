@@ -1,0 +1,16 @@
+{% assign t = site.data.I18n[page.lang] -%}
+{% assign lang_data = site.languages | find: "code", page.lang -%}
+<div class="py-4">
+  <h1>{{ t.services_page.h1 }}</h1>
+  <p class="lead">{{ t.services_page.intro }}</p>
+  <div class="row pt-3">
+    {% for s in t.services_page.items %}
+    <section class="col-md-6 mb-4">
+      <h2 class="h4">{{ s.title }}</h2>
+      <p>{{ s.text }}</p>
+    </section>
+    {% endfor %}
+  </div>
+  <a href="https://wa.me/{{ site.contacts.phone_code }}" class="text-white btn btn-lg d-block w-100"
+    style="background-color: #9f8555; color: white;" target="_blank">{{ t.about_page.write_in_wa }}</a>
+</div>

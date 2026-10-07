@@ -5,10 +5,12 @@
 {% assign home_path = "/" -%}
 {% endif -%}
 {% capture generated_title -%}
-{% if page.title != "Home" -%}
-{{ page.description }}, {{ page.loc }} | {{ site.title }}
-{% else -%}
+{% if page.title == "Home" -%}
 {{ site.title }} | {{ page.tagline }}
+{% elsif page.number -%}
+{{ t.project_title | replace: "%title%", page.title | replace: "%loc%", page.loc }}
+{% else -%}
+{{ page.title | default: page.description }} | {{ site.title }}
 {% endif -%}
 {% endcapture -%}
 {% assign generated_title = generated_title | strip -%}
@@ -48,7 +50,13 @@
   </script>
   <meta name="yandex-verification" content="1f2279cd2a242362" />
   <link type="application/atom+xml" rel="alternate" href="https://www.maryana.design/feed/portfolio/{{page.lang}}.xml"
-    title="Maryana.Interior.Design">
+    title="{{ site.title }}">
+  {% unless page.lang == nil or paginator.page > 1 -%}
+  {% for l in site.languages -%}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{{ l.slug | append: page.slug | default: '/' }}">
+  {% endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.slug | default: '/' }}">
+  {% endunless -%}
   {% seo title=false %}
   {% include schema.html %}
 </head>
@@ -75,6 +83,14 @@
                   <li class="nav-item">
                     <a class="nav-link"
                       href="{{ lang_data.slug | append: '/about' | relative_url }}">{{ t.menu.about }}</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"
+                      href="{{ lang_data.slug | append: '/services' | relative_url }}">{{ t.menu.services }}</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"
+                      href="{{ lang_data.slug | append: '/contact' | relative_url }}">{{ t.menu.contact }}</a>
                   </li>
                 </ul>
               </div>
@@ -115,7 +131,7 @@
       <div class="row px-4">
         <div class="col-md-3">
           <a href="{{ home_path }}">
-            <img src="/assets/images/logo.png" width="250" height="81" alt="Logo maryana.interior.design">
+            <img src="/assets/images/logo.png" width="250" height="81" alt="{{ site.title }} logo">
           </a>
           <div class="px-3 navbar navbar-expand justify-content-center">
             <ul class="navbar-nav">
@@ -124,6 +140,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ lang_data.slug | append: '/about' | relative_url }}">{{ t.menu.about }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ lang_data.slug | append: '/services' | relative_url }}">{{ t.menu.services }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ lang_data.slug | append: '/contact' | relative_url }}">{{ t.menu.contact }}</a>
               </li>
             </ul>
           </div>
@@ -165,8 +187,16 @@
             <i class="fa fa-rss fa-2x px-2" aria-hidden="true"></i>
           </a>
         </div>
-        <div class="pt-4">{{ t.address }}</div>
-        <div>&copy; 2021 - {{ 'now' | date: "%Y" }}, www.maryana.design</div>
+        <address class="pt-4 mb-0">
+          <strong>{{ site.title }}</strong><br>
+          {{ t.address }}<br>
+          {{ t.footer.whatsapp }}: <a href="https://wa.me/{{ site.contacts.phone_code }}">{{ site.contacts.phone }}</a> ·
+          {{ t.footer.email }}: <a href="mailto:{{ site.contacts.email }}">{{ site.contacts.email }}</a><br>
+          <a href="{{ site.contacts.instagram }}">{{ t.footer.instagram }}</a> ·
+          <a href="{{ site.contacts.google_maps }}">{{ t.footer.google_maps }}</a> ·
+          <a href="{{ site.url }}">www.maryana.design</a>
+        </address>
+        <div>&copy; 2021 - {{ 'now' | date: "%Y" }}, {{ site.title }}</div>
       </div>
       {% include modal_line.html %}
     </footer>

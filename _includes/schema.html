@@ -1,28 +1,30 @@
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Maryana Interior Design",
-      "description": "Interior design and renovation services in Phuket, Thailand. Custom furniture, luxury villa interiors, and more.",
-      "url": "https://maryana.design",
-      "image": "https://maryana.design/assets/images/logo.png",
-      "telephone": "+66805293353",
-      "email": "mail@maryana.design",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Phuket, Thailand",
-        "addressLocality": "Phuket",
-        "addressCountry": "TH"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Phuket"
-      },
-      "openingHours": "Mo-Sa 09:00-18:00",
-      "sameAs": [
-        "https://instagram.com/maryana.interior.design",
-        "https://web.facebook.com/maryana.interior.design",
-        "https://wa.me/66805293353"
-      ]
-    }
-  </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "{{ site.url }}/#business",
+    "name": {{ site.title | jsonify }},
+    "alternateName": "Maryana Interior Design",
+    "description": "M Studio is an interior design studio in Phuket specializing in villa interiors, turnkey furnishing, custom furniture and home staging.",
+    "url": "{{ site.url }}/",
+    "logo": "{{ site.url }}/assets/images/logo.png",
+    "image": "{{ site.url }}/assets/images/logo.png",
+    "telephone": "{{ site.contacts.phone_code }}",
+    "email": "{{ site.contacts.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": {{ site.contacts.street | jsonify }},
+      "addressLocality": {{ site.contacts.locality | jsonify }},
+      "addressRegion": "Phuket",
+      "postalCode": "{{ site.contacts.postal_code }}",
+      "addressCountry": "TH"
+    },
+    "areaServed": { "@type": "Place", "name": "Phuket, Thailand" },
+    "founder": { "@type": "Person", "name": "Maryana Kotova", "jobTitle": "Founder & Lead Designer" },
+    "sameAs": [
+      "{{ site.contacts.instagram }}",
+      "{{ site.contacts.facebook }}",
+      "{{ site.contacts.google_maps }}"
+    ]
+  }
+</script>

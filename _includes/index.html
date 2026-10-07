@@ -1,11 +1,17 @@
 {% assign t = site.data.I18n[page.lang] %}
+{% unless paginator.page > 1 %}
+<div class="pt-4 text-center">
+  <h1>{{ t.home_h1 }}</h1>
+  <p class="lead">{{ t.home_intro }}</p>
+</div>
+{% endunless %}
 <div class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
 {% for item in paginator.posts %}
 <div class="col">
   <div class="thumb" >
     <a href="{{ item.url }}">
       <img src="/assets/images/projects/{{item.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864"
-        alt="{{ t.photo_alt }} {{ item.description }}" loading="lazy">
+        alt="{{ t.photo_alt_tpl | replace: '%title%', item.title | replace: '%loc%', item.loc | replace: '%n%', 1 }}" loading="lazy">
     </a>
     <div class="info">
       <div class="text shadow-sm">
