@@ -1,6 +1,16 @@
+:root {
+  --bs-link-color: #9f8555;
+  --bs-link-color-rgb: 159, 133, 85;
+  --bs-link-hover-color: #333;
+  --bs-link-hover-color-rgb: 51, 51, 51;
+  --bs-focus-ring-color: rgba(159, 133, 85, .35);
+  --bs-primary: #9f8555;
+  --bs-primary-rgb: 159, 133, 85;
+}
+
 body h1, body h2, body h3, body h4, body h5 {
   font-family: "Abel", "Kanit", sans-serif;
-  color: #9f8557;
+  color: #9f8555;
 }
 
 body h1, body h2 {
@@ -9,14 +19,41 @@ body h1, body h2 {
   padding-bottom: 17px;
 }
 
-body a {
-  color: #9f8555 !important;
+a {
+  color: #9f8555;
   text-decoration: none;
 }
+a:hover {
+  color: #333;
+}
 
-body a:hover {
-  color: #333 !important;
-  text-decoration: none;
+.nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #9f8555;
+}
+.nav-link:hover, .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #333;
+}
+
+:focus-visible {
+  outline: 2px solid #9f8555;
+  outline-offset: 2px;
+}
+
+.btn:focus,
+.btn:focus-visible,
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.btn:hover {
+  filter: brightness(0.95);
+}
+
+img {
+  pointer-events: none;
 }
 
 .thumb {
@@ -31,26 +68,12 @@ body a:hover {
 .thumb .info .text {
   margin: 0 40px;
   padding: 1em;
-  margin-bottom: 0;
   background-color: rgba(255, 255, 255, 0.88);
-  font-family: "Abel", "Kanit", sans-serif;
   text-align: center;
   transition: background-color 0.2s ease;
 }
 .thumb:hover .info .text {
   background-color: #fff;
-}
-
-input[type=submit] {
-  background-color: #9f8555 !important;
-}
-
-input[type=submit]:hover {
-  background-color: #887249 !important;
-}
-
-.project_descr {
-  margin-left: 100px;
 }
 
 footer {
@@ -60,43 +83,29 @@ footer {
 
 .cropped-img {
   object-fit: cover;
-  height: 200px; /* Adjust the height as needed */
+  height: 200px;
 }
 
-img {
-  pointer-events: none;
-}
-
-.pagination {
+.pager {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 0.25rem;
   margin: 3rem 0;
   font-family: "Abel", "Kanit", sans-serif;
   font-size: 1.4rem;
-  flex-wrap: wrap;
 }
 
-.page-link {
+.pager-link {
   min-width: 2.2em;
   padding: 0.1em 0.5em;
   text-align: center;
-  background: none !important;
-  border: 0 !important;
-  border-bottom: 2px solid transparent !important;
-  box-shadow: none !important;
-  margin: 0 !important;
+  border-bottom: 2px solid transparent;
   transition: border-color 0.2s ease;
 }
-
-a.page-link:hover {
-  border-bottom-color: #9f8555 !important;
-}
-
-.page-link.current {
+.pager-link:hover, .pager-link.current {
   color: #9f8555;
-  border-bottom-color: #9f8555 !important;
+  border-bottom-color: #9f8555;
 }
 
 #projects-map {
@@ -118,6 +127,19 @@ a.page-link:hover {
 .map-loc {
   color: #666;
   margin-bottom: 4px;
+}
+
+.btn-gold {
+  background-color: #9f8555;
+  color: #fff;
+}
+.btn-gold:hover, .btn-gold:focus {
+  background-color: #887249;
+  color: #fff;
+}
+
+.card-title {
+  color: #9f8555;
 }
 
 a[target=_blank]:after {
