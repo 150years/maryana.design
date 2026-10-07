@@ -25,28 +25,25 @@ body a:hover {
 
   .info {
     position: absolute;
-    bottom: -10px;
-    width: 100%;
-    text-align: center;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
 
     .text {
       margin: 0 40px;
-      background-color: rgba(255,255,255,.9);
+      padding: 16px 24px;
+      margin-bottom: 0;
+      background-color: rgba(255,255,255,.88);
       font-family: 'Abel', 'Kanit', sans-serif;
-      padding: 5px 0;
-
-      .btn {
-        color: #9f8555;
-        border: 1px solid #9f8555;
-        letter-spacing: .35em;
-      }
-
-      .btn:hover {
-        color: #FFFFFF !important;
-        background-color: #9f8555;
-        border: 1px solid #9f8555;
-      }
+      text-align: center;
+      transition: background-color .2s ease;
     }
+  }
+
+  &:hover .info .text {
+    background-color: #fff;
   }
 }
 

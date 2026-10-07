@@ -8,18 +8,13 @@
 <div class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
 {% for item in paginator.posts %}
 <div class="col">
-  <div class="thumb" >
-    <a href="{{ item.url }}">
-      <img src="/assets/images/projects/{{item.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864"
-        alt="{{ t.photo_alt_tpl | replace: '%title%', item.title | replace: '%loc%', item.loc | replace: '%n%', 1 }}" loading="lazy">
-    </a>
+  <a class="thumb d-block" href="{{ item.url }}">
+    <img src="/assets/images/projects/{{item.number}}/00.jpg" class="img-thumbnail img-fluid" width="416" height="864"
+      alt="{{ t.photo_alt_tpl | replace: '%title%', item.title | replace: '%loc%', item.loc | replace: '%n%', 1 }}" loading="lazy">
     <div class="info">
-      <div class="text shadow-sm">
-        <a href="{{ item.url }}"><h4>{{ item.title }}</h4></a>
-        <a href="{{ item.url }}" class="btn btn-outline-info">{{ t['more'] }}</a>
-      </div>
+      <h4 class="text shadow-sm">{{ item.title }}</h4>
     </div>
-  </div>
+  </a>
 </div>
 {% endfor %}
 </div>
