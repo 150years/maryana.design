@@ -8,7 +8,8 @@
 {% if page.title == "Home" -%}
 {{ site.title }} | {{ page.tagline }}
 {% elsif page.number -%}
-{{ t.project_title | replace: "%title%", page.title | replace: "%loc%", page.loc }}
+{% assign loc = page.loc | default: t.default_loc -%}
+{{ t.project_title | replace: "%title%", page.title | replace: "%loc%", loc }}
 {% else -%}
 {{ page.title | default: page.description }} | {{ site.title }}
 {% endif -%}
@@ -91,6 +92,10 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link"
+                      href="{{ lang_data.slug | append: '/map' | relative_url }}">{{ t.menu.map }}</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"
                       href="{{ lang_data.slug | append: '/contact' | relative_url }}">{{ t.menu.contact }}</a>
                   </li>
                 </ul>
@@ -148,6 +153,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ lang_data.slug | append: '/services' | relative_url }}">{{ t.menu.services }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ lang_data.slug | append: '/map' | relative_url }}">{{ t.menu.map }}</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ lang_data.slug | append: '/contact' | relative_url }}">{{ t.menu.contact }}</a>

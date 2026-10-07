@@ -101,3 +101,25 @@ a.page-link:hover {
   color: #9f8555;
   border-bottom-color: #9f8555 !important;
 }
+
+#projects-map {
+  height: 600px;
+  border: 1px solid #e5dccb;
+
+  .leaflet-tile-pane {
+    filter: grayscale(1) sepia(.2) brightness(1.05) contrast(.9);
+  }
+}
+
+.map-thumb {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.map-loc {
+  color: #666;
+  margin-bottom: 4px;
+}
