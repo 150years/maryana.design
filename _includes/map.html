@@ -14,7 +14,7 @@
 </div>
 <script>
   const projects = [{% for p in projects %}{% if p.lat %}
-    { title: {{ p.title | jsonify }}, url: {{ p.url | jsonify }}, loc: {{ p.loc | jsonify }}, lat: {{ p.lat }}, lng: {{ p.lng }}, img: "/assets/images/projects/{{ p.number }}/00.jpg" },{% endif %}{% endfor %}
+    { title: {{ p.title | jsonify }}, n: {{ p.number | jsonify }}, url: {{ p.url | jsonify }}, loc: {{ p.loc | jsonify }}, lat: {{ p.lat }}, lng: {{ p.lng }}, img: "/assets/images/projects/{{ p.number }}/00.jpg" },{% endif %}{% endfor %}
   ];
   const map = L.map('projects-map', { scrollWheelZoom: false });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -26,8 +26,7 @@
   const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const markers = Object.values(groups).map(g => {
     const html = '<img src="' + g[0].img + '" alt="" class="map-thumb"><div class="map-loc">' + esc(g[0].loc) + '</div>' +
-      Object.values(g.reduce((acc, p) => ((acc[p.title] ||= { p, n: 0 }).n++, acc), {}))
-        .map(({ p, n }) => '<a href="' + p.url + '">' + esc(p.title) + (n > 1 ? ' (' + n + ')' : '') + '</a>').join('<br>');
+      g.map(p => '<a href="' + p.url + '">' + esc(p.title) + ' #' + p.n + '</a>').join('<br>');
     return L.circleMarker([g[0].lat, g[0].lng], {
       radius: 7 + Math.min(g.length, 8), color: '#fff', weight: 2, fillColor: '#9f8555', fillOpacity: .9
     }).bindPopup(html).addTo(map);
