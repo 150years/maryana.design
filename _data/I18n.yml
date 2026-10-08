@@ -12,7 +12,7 @@ en:
   completed: Completed
   home_h1: M Studio — Interior Design in Phuket, Thailand
   home_intro: M Studio is an interior design studio based in Phuket, Thailand. We specialize in villa and condominium interiors, turnkey furnishing, custom furniture, home staging and complete project styling.
-  project_title: "%title% #%n% Interior Design, %loc% | M Studio"
+  project_title: "%title% %n% Interior Design, %loc% | M Studio"
   default_loc: Phuket
   months: [January, February, March, April, May, June, July, August, September, October, November, December]
   project_text: M Studio Interior Design completed this project in %loc%. We design and furnish villas and condominiums across Phuket, from interior design and custom indoor and outdoor furniture to turnkey furnishing and styling.
@@ -134,7 +134,7 @@ ru:
   map: на карте
   home_h1: M Studio — дизайн интерьера на Пхукете, Таиланд
   home_intro: M Studio — студия дизайна интерьера на Пхукете. Мы делаем интерьеры вилл и кондоминиумов, комплектацию под ключ, мебель на заказ, хоум-стейджинг и финальную стилизацию объекта.
-  project_title: "Дизайн интерьера %title% #%n%, %loc% | M Studio"
+  project_title: "Дизайн интерьера %title% %n%, %loc% | M Studio"
   default_loc: Пхукет
   months: [январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь]
   project_text: Этот проект сделала студия M Studio Interior Design. Мы проектируем и комплектуем виллы и кондоминиумы по всему Пхукету. Делаем дизайн интерьера, мебель на заказ для дома и террасы, комплектацию под ключ и стилизацию.
@@ -256,7 +256,7 @@ th:
   map: ดูแผนที่
   home_h1: M Studio — ออกแบบตกแต่งภายใน ภูเก็ต ประเทศไทย
   home_intro: M Studio คือสตูดิโอออกแบบตกแต่งภายในในภูเก็ต ประเทศไทย เราเชี่ยวชาญการออกแบบภายในวิลล่าและคอนโดมิเนียม การตกแต่งพร้อมเฟอร์นิเจอร์แบบครบวงจร เฟอร์นิเจอร์สั่งทำ โฮมสเตจจิ้ง และการจัดสไตล์โครงการทั้งหมด
-  project_title: "ออกแบบตกแต่งภายใน %title% #%n%, %loc% | M Studio"
+  project_title: "ออกแบบตกแต่งภายใน %title% %n%, %loc% | M Studio"
   project_text: โครงการนี้ดำเนินการโดย M Studio Interior Design ที่ %loc% สตูดิโอของเราออกแบบและตกแต่งวิลล่าและคอนโดมิเนียมทั่วภูเก็ต ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย ทั้งการออกแบบภายใน เฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอก การตกแต่งแบบครบวงจร และการจัดสไตล์
   default_loc: ภูเก็ต
   months: [มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม]
