@@ -15,7 +15,7 @@
   size-adjust: 112.5%;
 }
 @font-face {
-  font-family: "Kanit";
+  font-family: "Kanit Menu";
   font-weight: 400;
   font-display: swap;
   src: url(/assets/fonts/kanit-400-thai.woff2) format("woff2");
@@ -590,6 +590,7 @@ footer {
   font-size: 0.95rem;
 }
 :lang(th) .navbar-nav .nav-link {
+  font-family: "Kanit Menu", sans-serif;
   font-weight: 400;
 }
 
