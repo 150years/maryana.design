@@ -1,15 +1,14 @@
 {% assign t = site.data.I18n[page.lang] -%}
-{% assign lang_data = site.languages | find: "code", page.lang -%}
-<div class="py-4">
+<div class="page-head">
   <h1>{{ t.services_page.h1 }}</h1>
   <p class="lead">{{ t.services_page.intro }}</p>
-  <div class="row pt-3">
-    {% for s in t.services_page.items %}
-    <section class="col-md-6 mb-4">
-      <h2 class="h4">{{ s.title }}</h2>
-      <p>{{ s.text }}</p>
-    </section>
-    {% endfor %}
-  </div>
-  <a href="https://wa.me/{{ site.contacts.phone_code }}" class="btn btn-gold btn-lg d-block w-100" target="_blank">{{ t.about_page.write_in_wa }}</a>
+</div>
+<div class="services row row-cols-1 row-cols-md-2 gx-md-5">
+  {% for s in t.services_page.items %}
+  <section class="col service">
+    <span class="service-n" aria-hidden="true">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+    <h2 class="h4">{{ s.title }}</h2>
+    <p>{{ s.text }}</p>
+  </section>
+  {% endfor %}
 </div>
