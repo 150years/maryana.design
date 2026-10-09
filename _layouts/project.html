@@ -26,14 +26,9 @@ layout: default
 </div>
 
 {% assign is = site.static_files | where: "project", page.number %}
-<div class="row row-cols-1 row-cols-md-2">
+<div class="gallery">
 {% for i in is %}
-  {% if forloop.index == 1 %}
-    {% continue %}
-  {% else %}
-  <div class="col">
-    <img src="{{ i.path }}" class="img-fluid pb-3" width="636" alt="{{ alt | replace: '%n%', forloop.index }}" loading="lazy">
-  </div>
-  {% endif %}
+  {% if forloop.index == 1 %}{% continue %}{% endif %}
+  <img src="{{ i.path }}" width="636" alt="{{ alt | replace: '%n%', forloop.index }}" loading="lazy">
 {% endfor %}
 </div>
