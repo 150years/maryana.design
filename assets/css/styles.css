@@ -72,6 +72,11 @@ footer .navbar-nav {
   flex-wrap: wrap;
   justify-content: center;
 }
+footer .navbar-nav .nav-link {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  padding: 0.35rem 0.45rem;
+}
 
 .lang-switch {
   font-size: 0.8rem;
@@ -566,10 +571,12 @@ footer {
 :lang(th) .lang-switch {
   letter-spacing: normal;
 }
-:lang(th) .site-header .navbar-nav .nav-link,
-:lang(th) footer .navbar-nav .nav-link {
+:lang(th) .site-header .navbar-nav .nav-link {
   font-size: 0.95rem;
   padding-inline: 0.7rem;
+}
+:lang(th) footer .navbar-nav .nav-link {
+  font-size: 0.85rem;
 }
 :lang(th) .btn-gold {
   font-size: 0.95rem;
