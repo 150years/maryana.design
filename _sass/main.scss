@@ -613,8 +613,13 @@ footer {
 
   // EN menu reads big through capitals and tracking; Thai has neither
   .site-header .navbar-nav .nav-link {
-    font-size: 1rem;
+    font-size: .95rem;
     padding-inline: .7rem;
+  }
+
+  // Kanit 300 looks heavier than Jost 400 beside it
+  .navbar-nav .nav-link {
+    font-weight: 200;
   }
 }
 
