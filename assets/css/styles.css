@@ -200,8 +200,7 @@ body {
   break-inside: avoid;
 }
 
-.hero-cta,
-.hero-cta-link {
+.btn-gold {
   padding: 1rem 2.25rem;
   border-radius: 0;
   font-size: 0.8rem;
@@ -538,8 +537,7 @@ footer {
 }
 
 :lang(th) .hero-eyebrow,
-:lang(th) .hero-cta,
-:lang(th) .hero-cta-link,
+:lang(th) .btn-gold,
 :lang(th) .site-header .nav-link,
 :lang(th) .lang-switch {
   letter-spacing: normal;
