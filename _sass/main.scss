@@ -8,9 +8,11 @@ $ink: #222;
 
 // Kanit Thai glyphs read smaller than Jost Latin at the same size:
 // enlarge only them, so Latin text and spacing on Thai pages stay as on EN
-@each $w in 200, 300, 400 {
+// 'Kanit Menu' is the 400 file under its own name: in 'Kanit' it would
+// replace 300 for all Thai body text (Jost 400)
+@each $family, $w in ('Kanit', 200), ('Kanit', 300), ('Kanit Menu', 400) {
   @font-face {
-    font-family: 'Kanit';
+    font-family: $family;
     font-weight: $w;
     font-display: swap;
     src: url(/assets/fonts/kanit-#{$w}-thai.woff2) format('woff2');
@@ -654,6 +656,7 @@ footer {
 
   // Kanit 400 lowercase matches the weight of the Jost 500 capitals in EN
   .navbar-nav .nav-link {
+    font-family: 'Kanit Menu', sans-serif;
     font-weight: 400;
   }
 }
