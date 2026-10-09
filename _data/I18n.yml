@@ -1,19 +1,13 @@
 en:
-  more: SEE MORE
-  photo_alt: Photo of
   location: Location
   map: show on map
-  subscribe:
-    title: GET UPDATES IN YOUR INBOX
-    button: Subscribe
-  tagline: Interior design in Phuket, Thailand
   about: Interior design, furniture and styling for villas and condominiums in Phuket.
   address: Phuket, Thailand
   completed: Completed
-  home_eyebrow: Interior design · Phuket
+  home_eyebrow: Villas · Condominiums · Phuket
   home_subtitle: Interior Design & Turnkey Furnishing in Phuket
   home_cta: View projects
-  home_intro: M Studio is an interior design studio based in Phuket, Thailand. We specialize in villa and condominium interiors, turnkey furnishing, custom furniture, home staging and complete project styling.
+  home_intro: Interior design for villas and condominiums in Phuket. Turnkey furnishing, custom furniture, home staging and complete project styling.
   project_title: "%title% %n% Interior Design, %loc% | M Studio"
   default_loc: Phuket
   months: [January, February, March, April, May, June, July, August, September, October, November, December]
@@ -90,10 +84,8 @@ en:
       - Interior Styling & Decoration
       - Furniture Sourcing and Procurement
       - Project Coordination
-    wa_number: +66805293353
     years: 14 years
     company_on_market: on the market
-    projects: 30+
     projects_in_portfolio: projects in portfolio
     write_in_wa: Message us on WhatsApp
     benefits_title: Why M Studio
@@ -123,21 +115,15 @@ en:
     next: "Next →"
     page: "Page %{current} of %{total}"
 ru:
-  more: ПЕРЕЙТИ
-  photo_alt: Фото к работе
   location: Локация
-  subscribe:
-    title: ПОДПИСАТЬСЯ НА ОБНОВЛЕНИЯ
-    button: Подписаться
-  tagline: Дизайн интерьера на Пхукете, Таиланд
   about: Дизайн интерьера, мебель и стилизация для вилл и кондоминиумов на Пхукете.
   address: Пхукет, Таиланд
   completed: Завершён
   map: на карте
-  home_eyebrow: Дизайн интерьера · Пхукет
+  home_eyebrow: Виллы · Кондоминиумы · Пхукет
   home_subtitle: Дизайн интерьера и комплектация под ключ на Пхукете
   home_cta: Смотреть проекты
-  home_intro: M Studio — студия дизайна интерьера на Пхукете. Мы делаем интерьеры вилл и кондоминиумов, комплектацию под ключ, мебель на заказ, хоум-стейджинг и финальную стилизацию объекта.
+  home_intro: Дизайн интерьера для вилл и кондоминиумов на Пхукете. Комплектация под ключ, мебель на заказ, хоум-стейджинг и финальная стилизация объекта.
   project_title: "Дизайн интерьера %title% %n%, %loc% | M Studio"
   default_loc: Пхукет
   months: [январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь]
@@ -189,7 +175,7 @@ ru:
     address: Адрес
     map: Открыть в Google Картах
   about_page:
-    about_me: О студии M Studio
+    about_me: Об M Studio
     name: Марьяна Котова
     position: Основатель и ведущий дизайнер
     header: Студия дизайна интерьера на Пхукете, Таиланд
@@ -214,10 +200,8 @@ ru:
       - Стилизация и декор интерьера
       - Подбор и закупка мебели
       - Координация проекта
-    wa_number: +66805293353
     years: 14 лет
     company_on_market: на рынке
-    projects: 30+
     projects_in_portfolio: проектов в портфолио
     write_in_wa: Написать в WhatsApp
     benefits_title: Почему M Studio
@@ -247,21 +231,15 @@ ru:
     next: "Вперёд →"
     page: "Страница %{current} из %{total}"
 th:
-  more: ดูเพิ่ม
-  photo_alt: รูปของ
   location: ตำแหน่ง
-  subscribe:
-    title: GET UPDATES IN YOUR INBOX
-    button: Subscribe
-  tagline: ออกแบบตกแต่งภายใน ภูเก็ต ประเทศไทย
-  about: ผู้เชี่ยวชาญด้านการออกแบบภายในของคุณ - สร้างโซลูชันที่เป็นส่วนตัว, สวยงาม, และมีประสิทธิภาพ สำหรับพื้นที่ของคุณ
-  address: จังหวัดภูเก็ตประเทศไทย
+  about: ออกแบบตกแต่งภายใน เฟอร์นิเจอร์ และจัดสไตล์ สำหรับวิลล่าและคอนโดมิเนียมในภูเก็ต
+  address: ภูเก็ต ประเทศไทย
   completed: เสร็จสิ้น
   map: ดูแผนที่
-  home_eyebrow: ออกแบบตกแต่งภายใน · ภูเก็ต
-  home_subtitle: ออกแบบตกแต่งภายในและตกแต่งครบวงจรในภูเก็ต
+  home_eyebrow: วิลล่า · คอนโดมิเนียม · ภูเก็ต
+  home_subtitle: ออกแบบตกแต่งภายในและเฟอร์นิเจอร์ครบวงจรในภูเก็ต
   home_cta: ดูผลงาน
-  home_intro: M Studio คือสตูดิโอออกแบบตกแต่งภายในในภูเก็ต ประเทศไทย เราเชี่ยวชาญการออกแบบภายในวิลล่าและคอนโดมิเนียม การตกแต่งพร้อมเฟอร์นิเจอร์แบบครบวงจร เฟอร์นิเจอร์สั่งทำ โฮมสเตจจิ้ง และการจัดสไตล์โครงการทั้งหมด
+  home_intro: ออกแบบตกแต่งภายในวิลล่าและคอนโดมิเนียมในภูเก็ต ตกแต่งพร้อมเฟอร์นิเจอร์ครบวงจร เฟอร์นิเจอร์สั่งทำ โฮมสเตจจิ้ง และจัดสไตล์ทั้งโครงการ
   project_title: "ออกแบบตกแต่งภายใน %title% %n%, %loc% | M Studio"
   project_text: โครงการนี้ดำเนินการโดย M Studio Interior Design ที่ %loc% สตูดิโอของเราออกแบบและตกแต่งวิลล่าและคอนโดมิเนียมทั่วภูเก็ต ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย ทั้งการออกแบบภายใน เฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอก การตกแต่งแบบครบวงจร และการจัดสไตล์
   default_loc: ภูเก็ต
@@ -338,26 +316,24 @@ th:
       - จัดสไตล์และตกแต่งภายใน
       - จัดหาและจัดซื้อเฟอร์นิเจอร์
       - ประสานงานโครงการ
-    wa_number: +66805293353
     years: 14 ปี
-    company_on_market: บริษัทในตลาด
-    projects: 30+
+    company_on_market: ในวงการออกแบบ
     projects_in_portfolio: โครงการในพอร์ตโฟลิโอ
-    write_in_wa: เขียนใน WhatsApp
-    benefits_title: ประโยชน์ของการทำงานกับฉัน
+    write_in_wa: ส่งข้อความทาง WhatsApp
+    benefits_title: ทำไมต้อง M Studio
     benefits:
-      - title: วิสัยทัศน์อาชีพ
-        description: และความเข้าใจเกี่ยวกับแนวโน้มล่าสุด
-      - title: ความรู้เกี่ยวกับคุณภาพวัสดุ
-        description: และวิธีการที่เฟอร์นิเจอร์จะทำงานในสภาพอากาศ
+      - title: สายตามืออาชีพ
+        description: และความเข้าใจในเทรนด์ปัจจุบัน
+      - title: ความรู้เรื่องวัสดุ
+        description: และความทนทานของเฟอร์นิเจอร์ในสภาพอากาศเขตร้อน
       - title: ใช้วัสดุธรรมชาติเท่านั้น
-        description: และเฟอร์นิเจอร์คุณภาพ เช่นไม่มี MDF และวัสดุพิษอื่น ๆ
-      - title: โรงงานเฟอร์นิเจอร์ของตัวเอง
-        description: ในเชียงใหม่, กรุงเทพ, อินโดนีเซีย, ทำงานภายใต้คำสั่งของฉันเป็นรายบุคคล
-      - title: ทำงานกับวิลล่าและอพาร์ทเม้นระดับพรีเมี่ยม
-        description: และสร้างอินทีเรียร์สำหรับอสังหาริมทรัพย์ลงทุน
-      - title: ทำงานเสร็จสมบูรณ์
-        description: และตรงเวลา
+        description: และเฟอร์นิเจอร์คุณภาพ ไม่ใช้ MDF หรือวัสดุที่เป็นพิษอื่น ๆ
+      - title: โรงงานเฟอร์นิเจอร์ของเราเอง
+        description: ในเชียงใหม่ กรุงเทพฯ และอินโดนีเซีย ผลิตตามคำสั่งเฉพาะของเรา
+      - title: วิลล่าและอพาร์ตเมนต์ระดับพรีเมียม
+        description: รวมถึงงานภายในสำหรับอสังหาริมทรัพย์เพื่อการลงทุน
+      - title: งานครบวงจร
+        description: ส่งมอบตรงเวลา
     visit_portfolio: ไปที่ผลงาน
   menu:
     home: M Studio Interior Design — หน้าแรก
