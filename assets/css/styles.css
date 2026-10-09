@@ -543,6 +543,10 @@ footer {
 :lang(th) .lang-switch {
   letter-spacing: normal;
 }
+:lang(th) .site-header .navbar-nav .nav-link {
+  font-size: 1rem;
+  padding-inline: 0.7rem;
+}
 
 html:lang(th) {
   font-size: 112.5%;
