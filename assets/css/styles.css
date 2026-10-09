@@ -25,12 +25,6 @@ body {
   height: 52px;
   width: auto;
 }
-.site-header .navbar-nav .nav-link {
-  font-size: 0.875rem;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
 @media (max-width: 991.98px) {
   .site-header .navbar-collapse {
     order: 3;
@@ -48,6 +42,19 @@ body {
   .site-header .navbar-nav .nav-item:last-child .nav-link {
     border-bottom: 0;
   }
+}
+
+.site-header .navbar-nav .nav-link,
+footer .navbar-nav .nav-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .lang-switch {
@@ -539,10 +546,12 @@ footer {
 :lang(th) .hero-eyebrow,
 :lang(th) .btn-gold,
 :lang(th) .site-header .nav-link,
+:lang(th) footer .nav-link,
 :lang(th) .lang-switch {
   letter-spacing: normal;
 }
-:lang(th) .site-header .navbar-nav .nav-link {
+:lang(th) .site-header .navbar-nav .nav-link,
+:lang(th) footer .navbar-nav .nav-link {
   font-size: 0.95rem;
   padding-inline: 0.7rem;
 }
