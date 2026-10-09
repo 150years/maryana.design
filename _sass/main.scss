@@ -611,3 +611,13 @@ footer {
     letter-spacing: normal;
   }
 }
+
+// Kanit Thai glyphs read smaller than Jost Latin at the same size
+html:lang(th) {
+  font-size: 112.5%;
+}
+
+// Thai has no spaces, so short menu words split mid-word in the narrow footer
+:lang(th) footer .nav-link {
+  white-space: nowrap;
+}
