@@ -156,10 +156,7 @@ body {
   line-height: 1.6;
 }
 .hero .hero-cta {
-  position: relative;
-  z-index: 2;
-  box-shadow: 0 0 0 3px #faf8f4;
-  margin-bottom: -1.6rem;
+  margin-bottom: 2.5rem;
 }
 .hero .hero-img {
   position: relative;
