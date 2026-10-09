@@ -229,8 +229,7 @@ body {
   }
 }
 
-.hero-cta,
-.hero-cta-link {
+.btn-gold {
   padding: 1rem 2.25rem;
   border-radius: 0;
   font-size: .8rem;
@@ -605,8 +604,7 @@ footer {
 // Thai combining marks break apart with tracking
 :lang(th) {
   .hero-eyebrow,
-  .hero-cta,
-  .hero-cta-link,
+  .btn-gold,
   .site-header .nav-link,
   .lang-switch {
     letter-spacing: normal;
