@@ -610,6 +610,12 @@ footer {
   .lang-switch {
     letter-spacing: normal;
   }
+
+  // EN menu reads big through capitals and tracking; Thai has neither
+  .site-header .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding-inline: .7rem;
+  }
 }
 
 // Kanit Thai glyphs read smaller than Jost Latin at the same size
