@@ -6,6 +6,19 @@ $cream: #faf8f4;
 $line: #e8e1d3;
 $ink: #222;
 
+// Kanit Thai glyphs read smaller than Jost Latin at the same size:
+// enlarge only them, so Latin text and spacing on Thai pages stay as on EN
+@each $w in 200, 300 {
+  @font-face {
+    font-family: 'Kanit';
+    font-weight: $w;
+    font-display: swap;
+    src: url(/assets/fonts/kanit-#{$w}-thai.woff2) format('woff2');
+    unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+    size-adjust: 112.5%;
+  }
+}
+
 // Bootstrap 5.3 theme: gold links and focus rings instead of default blue
 :root {
   --bs-link-color: #{$gold};
@@ -625,16 +638,16 @@ footer {
     padding-inline: .7rem;
   }
 
+  .btn-gold {
+    font-size: .95rem;
+  }
+
   // Kanit 300 looks heavier than Jost 400 beside it
   .navbar-nav .nav-link {
     font-weight: 200;
   }
 }
 
-// Kanit Thai glyphs read smaller than Jost Latin at the same size
-html:lang(th) {
-  font-size: 112.5%;
-}
 
 // Thai has no spaces, so short menu words split mid-word in the narrow footer
 :lang(th) footer .nav-link {
