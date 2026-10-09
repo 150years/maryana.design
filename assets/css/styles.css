@@ -544,8 +544,11 @@ footer {
   letter-spacing: normal;
 }
 :lang(th) .site-header .navbar-nav .nav-link {
-  font-size: 1rem;
+  font-size: 0.95rem;
   padding-inline: 0.7rem;
+}
+:lang(th) .navbar-nav .nav-link {
+  font-weight: 200;
 }
 
 html:lang(th) {
