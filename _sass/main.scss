@@ -198,16 +198,25 @@ body {
     // full-bleed out of .container
     margin-inline: calc(50% - 50vw);
 
-    &::before {
+    &::before,
+    &::after {
       content: "";
       position: absolute;
       z-index: 1;
-      top: -40px;
       left: -10%;
       right: -10%;
       height: 80px;
       background: $cream;
+    }
+
+    &::before {
+      top: -40px;
       border-radius: 0 0 50% 50%;
+    }
+
+    &::after {
+      bottom: -40px;
+      border-radius: 50% 50% 0 0;
     }
 
     img {
@@ -283,16 +292,26 @@ img {
 
 .thumb {
   position: relative;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
 
   .info {
     position: absolute;
-    bottom: -10px;
-    width: 100%;
+    left: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
     pointer-events: none;
 
     .text {
-      margin: 0 40px;
-      padding: 1em;
+      margin: 0;
+      padding: .9em 1em;
       background-color: rgba(255, 255, 255, .88);
       text-align: center;
       transition: background-color .2s ease;
@@ -348,12 +367,34 @@ footer {
   }
 }
 
+#projects-map {
+  .leaflet-popup-content-wrapper {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .leaflet-popup-content {
+    margin: 0;
+    width: 240px !important;
+  }
+
+  // close button sits on the photo
+  .leaflet-popup-close-button {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, .6);
+  }
+}
+
 .map-thumb {
-  width: 200px;
-  height: 130px;
+  width: 100%;
+  height: 160px;
   object-fit: cover;
   display: block;
-  margin-bottom: 6px;
+}
+
+.map-body {
+  padding: .6rem .9rem .8rem;
+  font-family: $body-font;
 }
 
 .map-loc {
