@@ -171,23 +171,6 @@ body {
   overflow: hidden;
   margin-inline: calc(50% - 50vw);
 }
-.hero .hero-img::before, .hero .hero-img::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  left: -10%;
-  right: -10%;
-  height: 80px;
-  background: #faf8f4;
-}
-.hero .hero-img::before {
-  top: -40px;
-  border-radius: 0 0 50% 50%;
-}
-.hero .hero-img::after {
-  bottom: -40px;
-  border-radius: 50% 50% 0 0;
-}
 .hero .hero-img img {
   display: block;
   width: 100%;
@@ -195,6 +178,7 @@ body {
   aspect-ratio: 4/5;
   object-fit: cover;
   object-position: 22% center;
+  clip-path: url(#hero-curve);
 }
 @media (min-width: 768px) {
   .hero .hero-img img {
@@ -205,6 +189,64 @@ body {
 
 #projects {
   scroll-margin-top: 1rem;
+}
+
+.page-head {
+  text-align: center;
+  padding: 2.5rem 0 1rem;
+}
+.page-head h1 {
+  color: #222;
+  font-size: clamp(2.2rem, 8vw, 3.2rem);
+  font-weight: 500;
+  border: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+.page-head h1::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 1px;
+  background: #9f8555;
+  margin: 1.25rem auto 1.5rem;
+}
+.page-head .lead {
+  max-width: 36rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-wrap: balance;
+}
+
+.services {
+  margin-top: 2rem;
+}
+.services .service {
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid #e8e1d3;
+}
+.services .service h2 {
+  color: #222;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 0;
+  padding: 0;
+  margin: 0.25rem 0 0.6rem;
+}
+.services .service p {
+  margin: 0;
+  line-height: 1.65;
+  color: #555;
+}
+.services .service-n {
+  font-family: "Cormorant Garamond", "Kanit", serif;
+  font-variant-numeric: lining-nums;
+  font-size: 0.95rem;
+  letter-spacing: 0.2em;
+  color: #9f8555;
 }
 
 body h1, body h2, body h3, body h4, body h5 {
