@@ -171,16 +171,22 @@ body {
   overflow: hidden;
   margin-inline: calc(50% - 50vw);
 }
-.hero .hero-img::before {
+.hero .hero-img::before, .hero .hero-img::after {
   content: "";
   position: absolute;
   z-index: 1;
-  top: -40px;
   left: -10%;
   right: -10%;
   height: 80px;
   background: #faf8f4;
+}
+.hero .hero-img::before {
+  top: -40px;
   border-radius: 0 0 50% 50%;
+}
+.hero .hero-img::after {
+  bottom: -40px;
+  border-radius: 50% 50% 0 0;
 }
 .hero .hero-img img {
   display: block;
@@ -253,16 +259,25 @@ img {
 
 .thumb {
   position: relative;
+  overflow: hidden;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
 }
 .thumb .info {
   position: absolute;
-  bottom: -10px;
-  width: 100%;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
   pointer-events: none;
 }
 .thumb .info .text {
-  margin: 0 40px;
-  padding: 1em;
+  margin: 0;
+  padding: 0.9em 1em;
   background-color: rgba(255, 255, 255, 0.88);
   text-align: center;
   transition: background-color 0.2s ease;
@@ -312,12 +327,29 @@ footer {
   filter: grayscale(1) sepia(0.2) brightness(1.05) contrast(0.9);
 }
 
+#projects-map .leaflet-popup-content-wrapper {
+  padding: 0;
+  overflow: hidden;
+}
+#projects-map .leaflet-popup-content {
+  margin: 0;
+  width: 240px !important;
+}
+#projects-map .leaflet-popup-close-button {
+  color: #fff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
 .map-thumb {
-  width: 200px;
-  height: 130px;
+  width: 100%;
+  height: 160px;
   object-fit: cover;
   display: block;
-  margin-bottom: 6px;
+}
+
+.map-body {
+  padding: 0.6rem 0.9rem 0.8rem;
+  font-family: "Jost", "Kanit", sans-serif;
 }
 
 .map-loc {
