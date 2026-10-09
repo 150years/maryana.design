@@ -1,11 +1,16 @@
 {% assign t = site.data.I18n[page.lang] %}
 {% unless paginator.page > 1 %}
-<div class="pt-4 text-center">
-  <h1>{{ t.home_h1 }}</h1>
-  <p class="lead">{{ t.home_intro }}</p>
-</div>
+<section class="hero">
+  <p class="hero-eyebrow">{{ t.home_eyebrow }}</p>
+  <h1 class="hero-title">M Studio <span>{{ t.home_subtitle }}</span></h1>
+  <p class="hero-lead">{{ t.home_intro }}</p>
+  <a class="btn btn-gold hero-cta" href="#projects">{{ t.home_cta }} <span aria-hidden="true">&rarr;</span></a>
+  <div class="hero-img">
+    <img src="/assets/images/projects/41/LLV_L11-02-2.jpg" width="1200" height="800" alt="{{ t.home_subtitle }}" fetchpriority="high">
+  </div>
+</section>
 {% endunless %}
-<div class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
+<div id="projects" class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
 {% for item in paginator.posts %}
 <div class="col">
   <a class="thumb d-block" href="{{ item.url }}">
