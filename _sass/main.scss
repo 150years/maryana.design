@@ -84,6 +84,13 @@ footer .navbar-nav .nav-link {
 footer .navbar-nav {
   flex-wrap: wrap;
   justify-content: center;
+
+  // narrow column: smaller than the header so it fits in two lines
+  .nav-link {
+    font-size: .7rem;
+    letter-spacing: .15em;
+    padding: .35rem .45rem;
+  }
 }
 
 .lang-switch {
@@ -632,10 +639,13 @@ footer {
   }
 
   // EN menu reads big through capitals and tracking; Thai has neither
-  .site-header .navbar-nav .nav-link,
-  footer .navbar-nav .nav-link {
+  .site-header .navbar-nav .nav-link {
     font-size: .95rem;
     padding-inline: .7rem;
+  }
+
+  footer .navbar-nav .nav-link {
+    font-size: .85rem;
   }
 
   .btn-gold {
