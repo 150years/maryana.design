@@ -183,11 +183,6 @@ body {
   .hero-cta {
     position: relative;
     z-index: 2;
-    padding: 1rem 2.25rem;
-    border-radius: 0;
-    font-size: .8rem;
-    letter-spacing: .3em;
-    text-transform: uppercase;
     box-shadow: 0 0 0 3px $cream;
     margin-bottom: -1.6rem;
   }
@@ -236,6 +231,127 @@ body {
   }
 }
 
+.hero-cta,
+.hero-cta-link {
+  padding: 1rem 2.25rem;
+  border-radius: 0;
+  font-size: .8rem;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  text-align: center;
+  color: $ink;
+  font-weight: 500;
+  border: 0;
+  padding: 0;
+  margin: 3.5rem 0 1.5rem;
+}
+
+.about-intro {
+  margin-top: 1.5rem;
+
+  // stacked on tablets: keep the portrait from filling the screen
+  .about-photo,
+  .about-stats {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+}
+
+.about-photo {
+  img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+
+  figcaption {
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .about-name {
+    display: block;
+    font-family: $heading-font;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $ink;
+  }
+
+  .about-role {
+    font-size: .75rem;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    color: $gold;
+  }
+}
+
+.about-stats {
+  display: flex;
+  border-top: 1px solid $line;
+  border-bottom: 1px solid $line;
+  margin-bottom: 2rem;
+  text-align: center;
+
+  div {
+    flex: 1;
+    padding: 1rem .5rem;
+
+    & + div {
+      border-left: 1px solid $line;
+    }
+  }
+
+  b {
+    display: block;
+    font-family: $heading-font;
+    font-variant-numeric: lining-nums;
+    font-size: 2rem;
+    font-weight: 500;
+    color: $gold;
+    line-height: 1.1;
+  }
+
+  span {
+    font-size: .85rem;
+    color: #666;
+  }
+}
+
+.about-text {
+  line-height: 1.7;
+
+  strong {
+    font-weight: 500;
+  }
+
+  h2 {
+    color: $ink;
+    border: 0;
+    padding: 0;
+    margin: 2rem 0 1rem;
+  }
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 14rem;
+  column-gap: 2rem;
+
+  li {
+    break-inside: avoid;
+    padding: .45rem 0;
+    border-bottom: 1px solid $line;
+  }
+}
+
+:lang(th) .about-role {
+  letter-spacing: normal;
+}
+
 .page-head {
   text-align: center;
   padding: 2.5rem 0 1rem;
@@ -276,7 +392,7 @@ body {
     padding-bottom: 1.5rem;
     border-top: 1px solid $line;
 
-    h2 {
+    h2, h3 {
       color: $ink;
       font-size: 1.6rem;
       font-weight: 500;
@@ -492,6 +608,7 @@ footer {
 :lang(th) {
   .hero-eyebrow,
   .hero-cta,
+  .hero-cta-link,
   .site-header .nav-link,
   .lang-switch {
     letter-spacing: normal;
