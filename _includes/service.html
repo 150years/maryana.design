@@ -1,0 +1,32 @@
+{% assign t = site.data.I18n[page.lang] -%}
+{% assign lang_data = site.languages | find: "code", page.lang -%}
+{% assign s = t.services_page.items | find: "slug", page.service -%}
+<article class="service-page">
+  <div class="page-head">
+    <h1>{{ s.title }}</h1>
+  </div>
+  <img class="service-page-img" src="{{ s.image }}" width="1200" height="800" alt="{{ s.title }}" fetchpriority="high">
+  <div class="service-page-body">
+    {% for p in s.body %}<p>{{ p }}</p>
+    {% endfor %}
+    <p class="service-closing">{{ s.closing }}</p>
+  </div>
+  <h2 class="section-title">{{ t.services_page.extras_title }}</h2>
+  <div class="services row row-cols-1 row-cols-md-{{ s.extras.size }} gx-md-5">
+    {% for e in s.extras %}
+    <section class="col service">
+      <h3>{{ e.title }}</h3>
+      <p>{{ e.text }}</p>
+    </section>
+    {% endfor %}
+  </div>
+  <div class="text-center mt-5">
+    <a href="https://wa.me/{{ site.contacts.phone_code }}" class="btn btn-gold" target="_blank">{{ t.about_page.write_in_wa }}</a>
+  </div>
+  <h2 class="section-title">{{ t.services_page.other }}</h2>
+  <ul class="service-others">
+    {% for o in t.services_page.items %}{% unless o.slug == s.slug %}
+    <li><a href="{{ lang_data.slug }}/services/{{ o.slug }}">{{ o.title }} <span aria-hidden="true">&rarr;</span></a></li>
+    {% endunless %}{% endfor %}
+  </ul>
+</article>

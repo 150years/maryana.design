@@ -1,0 +1,22 @@
+{% assign t = site.data.I18n[page.lang] -%}
+{% assign lang_data = site.languages | find: "code", page.lang -%}
+{% assign h = include.h | default: 'h3' -%}
+<div class="service-cards">
+  {% for s in t.services_page.items %}
+  {% capture url %}{{ lang_data.slug }}/services/{{ s.slug }}{% endcapture -%}
+  <article class="service-card{% if forloop.first %} service-card-main{% endif %}">
+    <img src="{{ s.image }}" width="1200" height="800" alt="" loading="lazy">
+    <div class="service-card-body">
+      <span class="service-n" aria-hidden="true">0{{ forloop.index }}</span>
+      <{{ h }} class="service-card-title"><a href="{{ url }}">{{ s.title }}</a></{{ h }}>
+      <p>{{ s.card }}</p>
+      {% if include.extras -%}
+      <ul class="service-extras">
+        {% for e in s.extras %}<li>{{ e.title }}</li>{% endfor %}
+      </ul>
+      {% endif -%}
+      <a class="btn btn-gold" href="{{ url }}" aria-label="{{ t.learn_more }}: {{ s.title }}">{{ t.learn_more }} <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </article>
+  {% endfor %}
+</div>

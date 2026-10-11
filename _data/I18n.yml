@@ -5,9 +5,10 @@ en:
   address: Phuket, Thailand
   completed: Completed
   home_eyebrow: Villas · Condominiums · Phuket
-  home_subtitle: Interior Design & Turnkey Furnishing in Phuket
+  home_subtitle: "Furniture Packages, Interior Design & Custom Furniture in Phuket"
   home_cta: View projects
-  home_intro: Interior design for villas and condominiums in Phuket. Turnkey furnishing, custom furniture, home staging and complete project styling.
+  learn_more: "Learn more"
+  home_intro: "M Studio is an interior design studio in Phuket. We design, furnish and prepare villas and condominiums so they are ready for living or for rent."
   project_title: "%title% %n% Interior Design, %loc% | M Studio"
   default_loc: Phuket
   months: [January, February, March, April, May, June, July, August, September, October, November, December]
@@ -24,25 +25,65 @@ en:
     google_maps: Google Maps
   services_page:
     title: Services
-    h1: Interior Design Services in Phuket
-    intro: M Studio Interior Design covers the whole interior of a property in Phuket, from the first concept to the final setup.
+    h1: "Interior Design Services in Phuket"
+    intro: "M Studio works in three directions. Furniture Packages are the core of the studio: a villa or condominium furnished down to the last spoon."
+    extras_title: "Also included"
+    other: "Other services"
     items:
-      - title: Interior Design in Phuket
-        text: Interior design for private homes, holiday residences and rental properties across Phuket. Each interior is planned around the way the property will actually be used, with natural materials and warm tones suited to tropical living.
-      - title: Villa Interior Design
-        text: Complete interiors for private villas in Bang Tao, Layan, Cherngtalay and other areas of Phuket. We work with owners, developers and contractors from the initial concept to the final setup of the villa.
-      - title: Condominium Interior Design
-        text: Interiors for condominiums and apartments — for owners who live in them and for investors who rent them out.
-      - title: Turnkey Furnishing
-        text: A complete turnkey furnishing service in Phuket — furniture, lighting, appliances, outdoor furniture, artwork, textiles, kitchenware, bedding and décor, with delivery, installation and final styling.
-      - title: Furniture Packages
-        text: Furniture packages for villas and condominiums, selected for the layout and for how the property will be used — as a private home, holiday residence or rental.
-      - title: Custom Furniture
-        text: Custom indoor and outdoor furniture made to order from natural materials at factories in Chiang Mai, Bangkok and Indonesia.
-      - title: Home Staging
-        text: Home staging and furnishing for investment properties, so they are attractive, practical and ready for rental or sale.
-      - title: Interior Styling
-        text: Interior styling and decoration — artwork, textiles, décor, outdoor styling and the final setup of the property.
+      - slug: furniture-packages
+        title: "Furniture Packages"
+        image: /assets/images/projects/40/BF_FQ22-11.jpg
+        description: "Furniture Packages in Phuket by M Studio: turnkey furnishing for villas and condominiums, from custom furniture and lighting to bedding, décor, delivery, installation and final styling."
+        card: "Complete turnkey furnishing for villas and condominiums, including custom furniture, wall panels, lighting, appliances, outdoor furniture, textiles, bedding, artwork, tableware, large and small décor, delivery, installation and final styling. Everything is prepared so the client can simply move in and live without needing to purchase anything else."
+        body:
+          - "Our Furniture Packages are designed for clients who want a fully furnished and ready-to-live-in property without having to coordinate dozens of suppliers or purchase additional items themselves."
+          - "M Studio provides a complete turnkey furnishing solution tailored to each villa or condominium. Depending on the property, the package can include custom-made indoor and outdoor furniture, wall panels, lighting, appliances, curtains and textiles, mattresses and bedding, artwork, rugs, mirrors, tableware, kitchen accessories, large and small décor, as well as all the finishing details that make a home feel complete."
+          - "We also take care of delivery, installation, furniture assembly, wall panel installation and final styling. Every item is selected according to the dimensions, architecture and overall style of the property, so the result feels cohesive rather than like a collection of separately purchased pieces."
+          - "Our goal is simple: when the project is completed, the client should be able to arrive with a suitcase and start living in the property immediately — without needing to buy anything else."
+          - "Furniture Packages can be created for private residences, holiday homes and investment properties prepared for rental."
+        closing: "From furniture to the smallest detail, M Studio prepares the entire property for living."
+        extras:
+          - title: "Turnkey Furnishing"
+            text: "A complete turnkey furnishing service in Phuket — furniture, lighting, appliances, outdoor furniture, artwork, textiles, kitchenware, bedding and décor, with delivery, installation and final styling."
+          - title: "Home Staging"
+            text: "Home staging and furnishing for investment properties, so they are attractive, practical and ready for rental or sale."
+          - title: "Interior Styling"
+            text: "Interior styling and decoration — artwork, textiles, décor, outdoor styling and the final setup of the property."
+      - slug: interior-design-renovation
+        title: "Interior Design & Renovation"
+        image: /assets/images/projects/8/23.jpg
+        description: "Interior design and renovation in Phuket by M Studio: space planning, materials, lighting, bathrooms and built-in furniture for villas and condominiums."
+        card: "Complete interior design and renovation solutions, from space planning and material selection to finishes, lighting, built-in furniture and final styling."
+        body:
+          - "Our Interior Design & Renovation service is for clients who want to transform a property completely — from the layout to the final finishing details."
+          - "M Studio develops the full interior concept and manages the changes needed to bring it to life. Depending on the project, this can include space planning and layout changes, selection of materials and finishes, walls, flooring, windows and doors, lighting design and electrical work, bathroom renovation, and built-in furniture such as wardrobes, kitchens and storage."
+          - "We coordinate the project from start to finish, so the client does not have to manage contractors, suppliers and installation schedules separately. Every decision — from materials to lighting — is made with the architecture of the property and the way the space will be used in mind."
+          - "Once the renovation is complete, we can also furnish and style the property, so it is ready to live in or to rent out."
+          - "Interior Design & Renovation is suitable for villas and condominiums that need a full update, a new layout or a completely new interior style."
+        closing: "From the first plan to the final detail, M Studio creates interiors that are ready for living."
+        extras:
+          - title: "Villa Interior Design"
+            text: "Complete interiors for private villas in Bang Tao, Layan, Cherngtalay and other areas of Phuket. We work with owners, developers and contractors from the initial concept to the final setup of the villa."
+          - title: "Condominium Interior Design"
+            text: "Interiors for condominiums and apartments — for owners who live in them and for investors who rent them out."
+          - title: "Project Coordination"
+            text: "One team coordinates contractors, suppliers and installation schedules, so the owner deals with M Studio alone."
+      - slug: custom-furniture
+        title: "Custom Furniture & Furnishing"
+        image: /assets/images/projects/19/13.jpg
+        description: "Custom furniture in Phuket by M Studio: individual pieces and single rooms furnished to the size and style of your villa or condominium, indoor and outdoor."
+        card: "Individual furnishing solutions and custom-made furniture designed specifically for the style, dimensions and needs of your property."
+        body:
+          - "Our Custom Furniture & Furnishing service is for clients who do not need a complete furniture package but want to furnish a specific room or add individual pieces."
+          - "This can be a single living room or bedroom, wardrobes, dining or coffee tables, beds, outdoor furniture for a terrace or pool area, or furniture made to the exact dimensions of the space."
+          - "Every piece is designed for the style, dimensions and needs of the property. We help choose materials, finishes and fabrics, and we can also source ready-made furniture and décor to complete the room."
+          - "M Studio takes care of production, delivery and installation, so the new furniture fits naturally into the existing interior."
+        closing: "Whether it is one piece or a whole room, M Studio creates furniture that fits the space and the way you live."
+        extras:
+          - title: "Outdoor Furniture"
+            text: "Custom outdoor furniture for terraces, gardens and pool areas, made from natural materials that suit the tropical climate."
+          - title: "Furniture Sourcing"
+            text: "Ready-made furniture and décor from trusted suppliers, and custom pieces made at factories in Chiang Mai, Bangkok and Indonesia."
   map_page:
     h1: Our Projects on the Map of Phuket
     intro: Tap a marker to see the projects at that location.
@@ -116,18 +157,19 @@ en:
     page: "Page %{current} of %{total}"
 ru:
   location: Локация
-  about: Дизайн интерьера, мебель и стилизация для вилл и кондоминиумов на Пхукете.
+  about: Дизайн интерьера, мебель и декор для вилл и кондоминиумов на Пхукете.
   address: Пхукет, Таиланд
   completed: Завершён
   map: на карте
   home_eyebrow: Виллы · Кондоминиумы · Пхукет
-  home_subtitle: Дизайн интерьера и комплектация под ключ на Пхукете
+  home_subtitle: "Мебельные пакеты, дизайн интерьера и мебель на заказ на Пхукете"
   home_cta: Смотреть проекты
-  home_intro: Дизайн интерьера для вилл и кондоминиумов на Пхукете. Комплектация под ключ, мебель на заказ, хоум-стейджинг и финальная стилизация объекта.
+  learn_more: "Подробнее"
+  home_intro: "M Studio — студия дизайна интерьера на Пхукете. Мы проектируем, обставляем и готовим виллы и кондоминиумы, чтобы в них можно было сразу жить или сдавать."
   project_title: "Дизайн интерьера %title% %n%, %loc% | M Studio"
   default_loc: Пхукет
   months: [январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь]
-  project_text: Этот проект сделала студия M Studio Interior Design. Мы проектируем и комплектуем виллы и кондоминиумы по всему Пхукету. Делаем дизайн интерьера, мебель на заказ для дома и террасы, комплектацию под ключ и стилизацию.
+  project_text: Этот проект сделала студия M Studio Interior Design. Мы проектируем и комплектуем виллы и кондоминиумы по всему Пхукету. Делаем дизайн интерьера, мебель на заказ для дома и террасы, комплектацию под ключ и декор.
   project_cta: Планируете похожий проект?
   project_cta_services: Посмотрите наши услуги
   project_cta_or: или
@@ -140,25 +182,65 @@ ru:
     google_maps: Google Карты
   services_page:
     title: Услуги
-    h1: Услуги дизайна интерьера на Пхукете
-    intro: M Studio Interior Design берёт на себя весь интерьер объекта на Пхукете — от первой концепции до готового к жизни или сдаче дома.
+    h1: "Услуги дизайна интерьера на Пхукете"
+    intro: "M Studio работает по трём направлениям. Главное из них — мебельные пакеты: вилла или кондоминиум, обставленные до последней ложки."
+    extras_title: "Также входит"
+    other: "Другие услуги"
     items:
-      - title: Дизайн интерьера на Пхукете
-        text: Дизайн интерьера для частных домов, домов для отдыха и объектов под аренду по всему Пхукету. Каждый интерьер мы планируем под то, как объектом будут пользоваться на самом деле. Натуральные материалы и тёплые тона под тропический климат.
-      - title: Дизайн интерьера виллы
-        text: Интерьер частной виллы целиком — в Банг Тао, Лаяне, Чернгталее и других районах Пхукета. Работаем с владельцами, застройщиками и подрядчиками от концепции до финальной расстановки.
-      - title: Дизайн интерьера кондоминиума
-        text: Интерьеры кондоминиумов и апартаментов — для владельцев, которые в них живут, и для инвесторов, которые их сдают.
-      - title: Комплектация под ключ
-        text: Полная комплектация объекта на Пхукете — мебель, свет, техника, уличная мебель, картины, текстиль, посуда, постельное бельё и декор, с доставкой, сборкой и финальной стилизацией.
-      - title: Мебельные пакеты
-        text: Мебельные пакеты для вилл и кондоминиумов, подобранные под планировку и назначение объекта — для жизни, отдыха или сдачи в аренду.
-      - title: Мебель на заказ
-        text: Мебель на заказ для дома и террасы из натуральных материалов — производство в Чиангмае, Бангкоке и Индонезии.
-      - title: Хоум-стейджинг
-        text: Хоум-стейджинг и комплектация инвестиционной недвижимости, чтобы объект выглядел привлекательно, был удобен и готов к сдаче или продаже.
-      - title: Стилизация интерьера
-        text: Стилизация и декор — картины, текстиль, декор, оформление террасы и финальная подготовка объекта.
+      - slug: furniture-packages
+        title: "Мебельные пакеты"
+        image: /assets/images/projects/40/BF_FQ22-11.jpg
+        description: "Мебельные пакеты на Пхукете от M Studio: комплектация вилл и кондоминиумов под ключ — мебель на заказ, свет, текстиль, декор, доставка, установка и финальная расстановка."
+        card: "Комплектация вилл и кондоминиумов под ключ: мебель на заказ, стеновые панели, свет, техника, уличная мебель, текстиль, постельное бельё, картины, посуда, крупный и мелкий декор, доставка, установка и финальная расстановка. Всё готово к тому, чтобы клиент просто заехал и жил, ничего не докупая."
+        body:
+          - "Мебельные пакеты — для тех, кто хочет получить полностью обставленный дом, готовый к жизни, без десятков поставщиков и самостоятельных покупок."
+          - "M Studio комплектует каждую виллу или кондоминиум под ключ. В зависимости от объекта в пакет входят мебель на заказ для дома и террасы, стеновые панели, свет, техника, шторы и текстиль, матрасы и постельное бельё, картины, ковры, зеркала, посуда, кухонные принадлежности, крупный и мелкий декор — и все детали, с которыми дом ощущается законченным."
+          - "Мы берём на себя доставку, установку, сборку мебели, монтаж стеновых панелей и финальную расстановку. Каждый предмет подбираем под размеры, архитектуру и стиль объекта, поэтому интерьер получается цельным, а не набором отдельно купленных вещей."
+          - "Наша цель проста: когда проект завершён, клиент приезжает с чемоданом и сразу начинает жить — ничего не докупая."
+          - "Мебельные пакеты подходят для частных резиденций, домов для отдыха и инвестиционных объектов под аренду."
+        closing: "От мебели до последней мелочи — M Studio готовит дом к жизни."
+        extras:
+          - title: "Комплектация под ключ"
+            text: "Полная комплектация объекта на Пхукете — мебель, свет, техника, уличная мебель, картины, текстиль, посуда, постельное бельё и декор, с доставкой, сборкой и финальной расстановкой."
+          - title: "Хоум-стейджинг"
+            text: "Хоум-стейджинг и меблировка инвестиционных объектов, чтобы они были привлекательными, удобными и готовыми к сдаче или продаже."
+          - title: "Декор интерьера"
+            text: "Картины, текстиль, декор, оформление террасы и финальная подготовка объекта."
+      - slug: interior-design-renovation
+        title: "Дизайн интерьера и ремонт"
+        image: /assets/images/projects/8/23.jpg
+        description: "Дизайн интерьера и ремонт на Пхукете от M Studio: планировка, материалы, свет, санузлы и встроенная мебель для вилл и кондоминиумов."
+        card: "Дизайн интерьера и ремонт под ключ: от планировки и выбора материалов до отделки, света, встроенной мебели и финальной расстановки."
+        body:
+          - "Дизайн интерьера и ремонт — для тех, кто хочет полностью преобразить объект: от планировки до последних деталей отделки."
+          - "M Studio разрабатывает концепцию интерьера целиком и ведёт все изменения, которые нужны, чтобы её воплотить. В зависимости от проекта это перепланировка, подбор материалов и отделки, стены, полы, окна и двери, световой дизайн и электрика, ремонт санузлов и встроенная мебель — шкафы, кухни, системы хранения."
+          - "Мы координируем проект от начала до конца, поэтому клиенту не нужно самому управлять подрядчиками, поставщиками и графиками монтажа. Каждое решение — от материалов до света — принимаем с учётом архитектуры объекта и того, как будет использоваться пространство."
+          - "После ремонта мы можем обставить и оформить дом, чтобы в нём можно было сразу жить или сдавать его."
+          - "Услуга подходит для вилл и кондоминиумов, которым нужно полное обновление, новая планировка или совершенно новый стиль интерьера."
+        closing: "От первого плана до последней детали M Studio создаёт интерьеры, готовые к жизни."
+        extras:
+          - title: "Дизайн интерьера виллы"
+            text: "Интерьер частной виллы целиком — в Банг Тао, Лаяне, Чернгталее и других районах Пхукета. Работаем с владельцами, застройщиками и подрядчиками от концепции до финальной расстановки."
+          - title: "Дизайн интерьера кондоминиума"
+            text: "Интерьеры кондоминиумов и апартаментов — для владельцев, которые в них живут, и для инвесторов, которые их сдают."
+          - title: "Координация проекта"
+            text: "Одна команда ведёт подрядчиков, поставщиков и графики монтажа — владелец общается только с M Studio."
+      - slug: custom-furniture
+        title: "Мебель на заказ"
+        image: /assets/images/projects/19/13.jpg
+        description: "Мебель на заказ на Пхукете от M Studio: отдельные предметы и меблировка комнат по размерам и стилю вашей виллы или кондоминиума, для дома и террасы."
+        card: "Индивидуальная меблировка и мебель на заказ, спроектированная под стиль, размеры и задачи вашего объекта."
+        body:
+          - "Мебель на заказ — для тех, кому не нужен полный мебельный пакет, но нужно обставить конкретную комнату или добавить отдельные предметы."
+          - "Это может быть гостиная или спальня, шкафы, обеденные или журнальные столы, кровати, уличная мебель для террасы или зоны у бассейна, а также мебель точно по размерам помещения."
+          - "Каждый предмет проектируем под стиль, размеры и задачи объекта. Помогаем выбрать материалы, отделку и ткани, а также подбираем готовую мебель и декор, чтобы завершить комнату."
+          - "M Studio берёт на себя производство, доставку и установку, и новая мебель естественно вписывается в существующий интерьер."
+        closing: "Один предмет или целая комната — M Studio делает мебель, которая подходит пространству и вашему образу жизни."
+        extras:
+          - title: "Уличная мебель"
+            text: "Мебель на заказ для террас, садов и зон у бассейна — из натуральных материалов, которые выдерживают тропический климат."
+          - title: "Подбор мебели"
+            text: "Готовая мебель и декор от проверенных поставщиков и мебель на заказ с фабрик в Чиангмае, Бангкоке и Индонезии."
   map_page:
     h1: Наши проекты на карте Пхукета
     intro: Нажмите на точку, чтобы увидеть проекты в этом месте.
@@ -182,7 +264,7 @@ ru:
     description: |
       <p><strong>M Studio — студия дизайна интерьера на Пхукете. Мы делаем интерьеры под ключ для частных вилл, кондоминиумов и инвестиционной недвижимости.</strong></p>
       <p>Студию основала дизайнер интерьера <strong>Марьяна Котова</strong>. M Studio создаёт тёплые современные интерьеры под то, как объектом будут пользоваться на самом деле: как собственным домом, домом для отдыха или объектом под аренду.</p>
-      <p>Мы не ограничиваемся дизайн-проектом. Мы делаем <strong>комплектацию под ключ на Пхукете</strong>: планировка, подбор мебели и мебель на заказ, свет, техника, уличная мебель, картины, текстиль, посуда, постельное бельё, декор, доставка, сборка и финальная стилизация.</p>
+      <p>Мы не ограничиваемся дизайн-проектом. Мы делаем <strong>комплектацию под ключ на Пхукете</strong>: планировка, подбор мебели и мебель на заказ, свет, техника, уличная мебель, картины, текстиль, посуда, постельное бельё, декор, доставка, сборка и финальная расстановка.</p>
       <p>Всё время проекта мы работаем с владельцами, застройщиками, подрядчиками и мебельными фабриками и ведём детали от первой концепции до готового объекта.</p>
       <p>У M Studio есть проекты вилл и резиденций по всему Пхукету, в том числе в <strong>Банг Тао, Лаяне и Чернгталее</strong>, а также в комплексах Botanica и Clover Residence.</p>
       <p>Наш подход — функциональность, комфорт и спокойная современная эстетика для жизни в тропиках. Мы выбираем натуральные материалы, тёплые тона и решения, которые не устареют, а не интерьеры ради эффектной картинки.</p>
@@ -237,9 +319,10 @@ th:
   completed: เสร็จสิ้น
   map: ดูแผนที่
   home_eyebrow: วิลล่า · คอนโดมิเนียม · ภูเก็ต
-  home_subtitle: ออกแบบตกแต่งภายในและเฟอร์นิเจอร์ครบวงจรในภูเก็ต
+  home_subtitle: "แพ็กเกจเฟอร์นิเจอร์ ออกแบบตกแต่งภายใน และเฟอร์นิเจอร์สั่งทำในภูเก็ต"
   home_cta: ดูผลงาน
-  home_intro: ออกแบบตกแต่งภายในวิลล่าและคอนโดมิเนียมในภูเก็ต ตกแต่งพร้อมเฟอร์นิเจอร์ครบวงจร เฟอร์นิเจอร์สั่งทำ โฮมสเตจจิ้ง และจัดสไตล์ทั้งโครงการ
+  learn_more: "ดูเพิ่มเติม"
+  home_intro: "M Studio คือสตูดิโอออกแบบตกแต่งภายในในภูเก็ต เราออกแบบ ตกแต่ง และเตรียมวิลล่าและคอนโดมิเนียมให้พร้อมเข้าอยู่หรือปล่อยเช่า"
   project_title: "ออกแบบตกแต่งภายใน %title% %n%, %loc% | M Studio"
   project_text: โครงการนี้ดำเนินการโดย M Studio Interior Design ที่ %loc% สตูดิโอของเราออกแบบและตกแต่งวิลล่าและคอนโดมิเนียมทั่วภูเก็ต ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย ทั้งการออกแบบภายใน เฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอก การตกแต่งแบบครบวงจร และการจัดสไตล์
   default_loc: ภูเก็ต
@@ -256,25 +339,65 @@ th:
     google_maps: Google Maps
   services_page:
     title: บริการ
-    h1: บริการออกแบบตกแต่งภายในในภูเก็ต
-    intro: M Studio Interior Design ดูแลงานภายในทั้งหมดของอสังหาริมทรัพย์ในภูเก็ต ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย
+    h1: "บริการออกแบบตกแต่งภายในในภูเก็ต"
+    intro: "M Studio ให้บริการ 3 ด้าน งานหลักของเราคือแพ็กเกจเฟอร์นิเจอร์ ตกแต่งวิลล่าหรือคอนโดมิเนียมครบทุกชิ้นจนพร้อมเข้าอยู่"
+    extras_title: "รวมถึง"
+    other: "บริการอื่น ๆ"
     items:
-      - title: ออกแบบตกแต่งภายในในภูเก็ต
-        text: การออกแบบภายในสำหรับบ้านส่วนตัว บ้านพักตากอากาศ และอสังหาริมทรัพย์ให้เช่าทั่วภูเก็ต เราวางแผนแต่ละพื้นที่ตามการใช้งานจริง ด้วยวัสดุธรรมชาติและโทนสีอบอุ่นที่เหมาะกับการใช้ชีวิตในเขตร้อน
-      - title: ออกแบบภายในวิลล่า
-        text: การออกแบบภายในวิลล่าส่วนตัวทั้งหลังในบางเทา ลายัน เชิงทะเล และพื้นที่อื่น ๆ ของภูเก็ต เราทำงานร่วมกับเจ้าของ ผู้พัฒนาโครงการ และผู้รับเหมา ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย
-      - title: ออกแบบภายในคอนโดมิเนียม
-        text: การออกแบบภายในคอนโดมิเนียมและอพาร์ตเมนต์ สำหรับเจ้าของที่อยู่อาศัยเองและนักลงทุนที่ปล่อยเช่า
-      - title: ตกแต่งพร้อมเฟอร์นิเจอร์ครบวงจร
-        text: บริการตกแต่งครบวงจรในภูเก็ต ทั้งเฟอร์นิเจอร์ ไฟ เครื่องใช้ไฟฟ้า เฟอร์นิเจอร์ภายนอก งานศิลปะ ผ้า เครื่องครัว เครื่องนอน และของตกแต่ง พร้อมจัดส่ง ติดตั้ง และจัดสไตล์ขั้นสุดท้าย
-      - title: แพ็กเกจเฟอร์นิเจอร์
-        text: แพ็กเกจเฟอร์นิเจอร์สำหรับวิลล่าและคอนโดมิเนียม คัดเลือกตามผังและการใช้งาน ไม่ว่าจะเป็นบ้านส่วนตัว บ้านพักตากอากาศ หรือให้เช่า
-      - title: เฟอร์นิเจอร์สั่งทำ
-        text: เฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอกจากวัสดุธรรมชาติ ผลิตตามสั่งที่โรงงานในเชียงใหม่ กรุงเทพฯ และอินโดนีเซีย
-      - title: โฮมสเตจจิ้ง
-        text: โฮมสเตจจิ้งและการตกแต่งอสังหาริมทรัพย์เพื่อการลงทุน ให้ดูน่าสนใจ ใช้งานได้จริง และพร้อมให้เช่าหรือขาย
-      - title: จัดสไตล์ภายใน
-        text: การจัดสไตล์และตกแต่ง งานศิลปะ ผ้า ของตกแต่ง การจัดพื้นที่ภายนอก และการเตรียมบ้านขั้นสุดท้าย
+      - slug: furniture-packages
+        title: "แพ็กเกจเฟอร์นิเจอร์"
+        image: /assets/images/projects/40/BF_FQ22-11.jpg
+        description: "แพ็กเกจเฟอร์นิเจอร์ในภูเก็ตโดย M Studio: ตกแต่งวิลล่าและคอนโดมิเนียมครบวงจร ตั้งแต่เฟอร์นิเจอร์สั่งทำ ไฟ เครื่องนอน ของตกแต่ง ไปจนถึงจัดส่ง ติดตั้ง และจัดสไตล์ขั้นสุดท้าย"
+        card: "ตกแต่งวิลล่าและคอนโดมิเนียมครบวงจร ทั้งเฟอร์นิเจอร์สั่งทำ ผนังตกแต่ง ไฟ เครื่องใช้ไฟฟ้า เฟอร์นิเจอร์ภายนอก ผ้า เครื่องนอน งานศิลปะ ภาชนะ ของตกแต่งชิ้นใหญ่และชิ้นเล็ก พร้อมจัดส่ง ติดตั้ง และจัดสไตล์ขั้นสุดท้าย ทุกอย่างพร้อมให้ลูกค้าย้ายเข้าอยู่ได้ทันทีโดยไม่ต้องซื้ออะไรเพิ่ม"
+        body:
+          - "แพ็กเกจเฟอร์นิเจอร์ของเราออกแบบมาสำหรับลูกค้าที่ต้องการบ้านที่ตกแต่งครบและพร้อมเข้าอยู่ โดยไม่ต้องประสานงานกับผู้จำหน่ายหลายสิบรายหรือซื้อของเพิ่มเอง"
+          - "M Studio ตกแต่งวิลล่าหรือคอนโดมิเนียมแต่ละแห่งแบบครบวงจร แพ็กเกจอาจรวมเฟอร์นิเจอร์สั่งทำทั้งภายในและภายนอก ผนังตกแต่ง ไฟ เครื่องใช้ไฟฟ้า ผ้าม่านและผ้า ที่นอนและเครื่องนอน งานศิลปะ พรม กระจก ภาชนะ อุปกรณ์ครัว ของตกแต่งชิ้นใหญ่และชิ้นเล็ก รวมถึงรายละเอียดทุกอย่างที่ทำให้บ้านสมบูรณ์"
+          - "เราดูแลการจัดส่ง ติดตั้ง ประกอบเฟอร์นิเจอร์ ติดตั้งผนังตกแต่ง และจัดสไตล์ขั้นสุดท้าย ทุกชิ้นคัดเลือกตามขนาด สถาปัตยกรรม และสไตล์ของบ้าน ผลลัพธ์จึงกลมกลืนเป็นหนึ่งเดียว ไม่ใช่ของที่ซื้อแยกกันมาวางรวมกัน"
+          - "เป้าหมายของเราเรียบง่าย เมื่อโครงการเสร็จ ลูกค้าเพียงถือกระเป๋าเดินทางมาก็เข้าอยู่ได้ทันที โดยไม่ต้องซื้ออะไรเพิ่ม"
+          - "แพ็กเกจเฟอร์นิเจอร์เหมาะสำหรับบ้านส่วนตัว บ้านพักตากอากาศ และอสังหาริมทรัพย์เพื่อการลงทุนที่เตรียมปล่อยเช่า"
+        closing: "ตั้งแต่เฟอร์นิเจอร์จนถึงรายละเอียดที่เล็กที่สุด M Studio เตรียมบ้านทั้งหลังให้พร้อมสำหรับการอยู่อาศัย"
+        extras:
+          - title: "ตกแต่งพร้อมเฟอร์นิเจอร์ครบวงจร"
+            text: "บริการตกแต่งครบวงจรในภูเก็ต ทั้งเฟอร์นิเจอร์ ไฟ เครื่องใช้ไฟฟ้า เฟอร์นิเจอร์ภายนอก งานศิลปะ ผ้า เครื่องครัว เครื่องนอน และของตกแต่ง พร้อมจัดส่ง ติดตั้ง และจัดสไตล์ขั้นสุดท้าย"
+          - title: "โฮมสเตจจิ้ง"
+            text: "โฮมสเตจจิ้งและการตกแต่งอสังหาริมทรัพย์เพื่อการลงทุน ให้ดูน่าสนใจ ใช้งานได้จริง และพร้อมให้เช่าหรือขาย"
+          - title: "จัดสไตล์ภายใน"
+            text: "การจัดสไตล์และตกแต่ง งานศิลปะ ผ้า ของตกแต่ง การจัดพื้นที่ภายนอก และการเตรียมบ้านขั้นสุดท้าย"
+      - slug: interior-design-renovation
+        title: "ออกแบบตกแต่งภายในและรีโนเวท"
+        image: /assets/images/projects/8/23.jpg
+        description: "ออกแบบตกแต่งภายในและรีโนเวทในภูเก็ตโดย M Studio: วางผัง วัสดุ ไฟ ห้องน้ำ และเฟอร์นิเจอร์บิวท์อินสำหรับวิลล่าและคอนโดมิเนียม"
+        card: "ออกแบบตกแต่งภายในและรีโนเวทครบวงจร ตั้งแต่การวางผังและเลือกวัสดุ ไปจนถึงงานตกแต่งผิว ไฟ เฟอร์นิเจอร์บิวท์อิน และจัดสไตล์ขั้นสุดท้าย"
+        body:
+          - "บริการออกแบบตกแต่งภายในและรีโนเวทเหมาะสำหรับลูกค้าที่ต้องการเปลี่ยนบ้านทั้งหลัง ตั้งแต่ผังพื้นที่จนถึงรายละเอียดงานตกแต่งขั้นสุดท้าย"
+          - "M Studio พัฒนาแนวคิดการตกแต่งภายในทั้งหมดและดูแลทุกการเปลี่ยนแปลงที่จำเป็นเพื่อให้เกิดขึ้นจริง ขึ้นอยู่กับโครงการ อาจรวมถึงการวางผังและปรับผังใหม่ การเลือกวัสดุและงานผิว ผนัง พื้น หน้าต่างและประตู การออกแบบแสงและงานไฟฟ้า การรีโนเวทห้องน้ำ และเฟอร์นิเจอร์บิวท์อิน เช่น ตู้เสื้อผ้า ห้องครัว และที่เก็บของ"
+          - "เราประสานงานโครงการตั้งแต่ต้นจนจบ ลูกค้าจึงไม่ต้องจัดการผู้รับเหมา ผู้จำหน่าย และตารางการติดตั้งเอง ทุกการตัดสินใจ ตั้งแต่วัสดุจนถึงแสงไฟ คำนึงถึงสถาปัตยกรรมของบ้านและการใช้งานพื้นที่จริง"
+          - "เมื่อรีโนเวทเสร็จ เรายังตกแต่งเฟอร์นิเจอร์และจัดสไตล์ให้ได้ เพื่อให้บ้านพร้อมเข้าอยู่หรือปล่อยเช่า"
+          - "บริการนี้เหมาะสำหรับวิลล่าและคอนโดมิเนียมที่ต้องการปรับปรุงทั้งหมด ผังใหม่ หรือสไตล์การตกแต่งภายในใหม่ทั้งหมด"
+        closing: "ตั้งแต่แบบแปลนแรกจนถึงรายละเอียดสุดท้าย M Studio สร้างสรรค์ภายในที่พร้อมสำหรับการอยู่อาศัย"
+        extras:
+          - title: "ออกแบบภายในวิลล่า"
+            text: "การออกแบบภายในวิลล่าส่วนตัวทั้งหลังในบางเทา ลายัน เชิงทะเล และพื้นที่อื่น ๆ ของภูเก็ต เราทำงานร่วมกับเจ้าของ ผู้พัฒนาโครงการ และผู้รับเหมา ตั้งแต่แนวคิดแรกจนถึงการจัดวางขั้นสุดท้าย"
+          - title: "ออกแบบภายในคอนโดมิเนียม"
+            text: "การออกแบบภายในคอนโดมิเนียมและอพาร์ทเมนต์ สำหรับเจ้าของที่อยู่อาศัยเองและนักลงทุนที่ปล่อยเช่า"
+          - title: "ประสานงานโครงการ"
+            text: "ทีมเดียวดูแลผู้รับเหมา ผู้จำหน่าย และตารางการติดตั้ง เจ้าของบ้านติดต่อกับ M Studio เพียงที่เดียว"
+      - slug: custom-furniture
+        title: "เฟอร์นิเจอร์สั่งทำ"
+        image: /assets/images/projects/19/13.jpg
+        description: "เฟอร์นิเจอร์สั่งทำในภูเก็ตโดย M Studio: เฟอร์นิเจอร์แต่ละชิ้นหรือทั้งห้อง ตามขนาดและสไตล์ของวิลล่าหรือคอนโดมิเนียม ทั้งภายในและภายนอก"
+        card: "ตกแต่งเฉพาะส่วนและเฟอร์นิเจอร์สั่งทำ ออกแบบให้ตรงกับสไตล์ ขนาด และการใช้งานของบ้านคุณ"
+        body:
+          - "บริการเฟอร์นิเจอร์สั่งทำเหมาะสำหรับลูกค้าที่ไม่ต้องการแพ็กเกจเฟอร์นิเจอร์ทั้งหลัง แต่ต้องการตกแต่งห้องใดห้องหนึ่งหรือเพิ่มเฟอร์นิเจอร์บางชิ้น"
+          - "อาจเป็นห้องนั่งเล่นหรือห้องนอน ตู้เสื้อผ้า โต๊ะอาหารหรือโต๊ะกลาง เตียง เฟอร์นิเจอร์ภายนอกสำหรับระเบียงหรือริมสระว่ายน้ำ หรือเฟอร์นิเจอร์ที่ทำตามขนาดพื้นที่จริง"
+          - "ทุกชิ้นออกแบบตามสไตล์ ขนาด และการใช้งานของบ้าน เราช่วยเลือกวัสดุ งานผิว และผ้า และยังจัดหาเฟอร์นิเจอร์สำเร็จรูปและของตกแต่งเพื่อให้ห้องสมบูรณ์"
+          - "M Studio ดูแลการผลิต จัดส่ง และติดตั้ง เฟอร์นิเจอร์ใหม่จึงเข้ากับการตกแต่งเดิมอย่างเป็นธรรมชาติ"
+        closing: "ไม่ว่าจะเป็นชิ้นเดียวหรือทั้งห้อง M Studio สร้างเฟอร์นิเจอร์ที่เข้ากับพื้นที่และวิถีชีวิตของคุณ"
+        extras:
+          - title: "เฟอร์นิเจอร์ภายนอก"
+            text: "เฟอร์นิเจอร์ภายนอกสั่งทำสำหรับระเบียง สวน และริมสระว่ายน้ำ จากวัสดุธรรมชาติที่เหมาะกับอากาศเขตร้อน"
+          - title: "จัดหาเฟอร์นิเจอร์"
+            text: "เฟอร์นิเจอร์สำเร็จรูปและของตกแต่งจากผู้จำหน่ายที่เชื่อถือได้ และเฟอร์นิเจอร์สั่งทำจากโรงงานในเชียงใหม่ กรุงเทพฯ และอินโดนีเซีย"
   map_page:
     h1: โครงการของเราบนแผนที่ภูเก็ต
     intro: แตะที่จุดเพื่อดูโครงการในบริเวณนั้น
