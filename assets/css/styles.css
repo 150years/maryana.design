@@ -400,6 +400,123 @@ footer .navbar-nav .nav-link {
   color: #9f8555;
 }
 
+.service-cards {
+  display: grid;
+  gap: 2.5rem 2rem;
+}
+@media (min-width: 768px) {
+  .service-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.service-cards .service-card {
+  display: flex;
+  flex-direction: column;
+}
+.service-cards .service-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.service-cards .service-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding-top: 1.25rem;
+}
+.service-cards .service-card-body p {
+  line-height: 1.65;
+  color: #555;
+}
+.service-cards .service-card-body .btn {
+  margin-top: auto;
+}
+.service-cards .service-card-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 0;
+  padding: 0;
+  margin: 0.25rem 0 0.6rem;
+}
+.service-cards .service-card-title a {
+  color: #222;
+  text-decoration: none;
+}
+.service-cards .service-card-main {
+  grid-column: 1/-1;
+}
+@media (min-width: 992px) {
+  .service-cards .service-card-main {
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  .service-cards .service-card-main img {
+    width: 58%;
+    flex-shrink: 0;
+  }
+  .service-cards .service-card-main .service-card-body {
+    padding-top: 0;
+  }
+  .service-cards .service-card-main .service-card-title {
+    font-size: 2.2rem;
+  }
+}
+.service-cards .service-n {
+  font-family: "Cormorant Garamond", "Kanit", serif;
+  font-variant-numeric: lining-nums;
+  font-size: 0.95rem;
+  letter-spacing: 0.2em;
+  color: #9f8555;
+}
+
+.service-extras {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.service-extras li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #e8e1d3;
+}
+
+.service-page .service-page-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 21/9;
+  object-fit: cover;
+}
+.service-page .service-page-body {
+  max-width: 42rem;
+  margin: 2.5rem auto 0;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+.service-page .service-closing {
+  font-family: "Cormorant Garamond", "Kanit", serif;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  color: #9f8555;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.service-others {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 2.5rem;
+  font-size: 1.1rem;
+}
+
 body h1, body h2, body h3, body h4, body h5 {
   font-family: "Cormorant Garamond", "Kanit", serif;
   font-variant-numeric: lining-nums;
