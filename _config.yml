@@ -207,6 +207,22 @@ defaults:
       path: "assets/images/projects/41"
     values:
       project: 41
+  - scope:
+      path: "assets/images/projects/42"
+    values:
+      project: 42
+  - scope:
+      path: "assets/images/projects/43"
+    values:
+      project: 43
+  - scope:
+      path: "assets/images/projects/44"
+    values:
+      project: 44
+  - scope:
+      path: "assets/images/projects/45"
+    values:
+      project: 45
 languages:
   - code: en
     slug: ""
