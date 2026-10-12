@@ -18,9 +18,9 @@
   <h2 class="section-title">{{ t.menu.services }}</h2>
   {% include service-cards.html %}
 </section>
-<h2 class="section-title">{{ t.menu.portfolio }}</h2>
+<h2 class="section-title" id="projects">{{ t.menu.portfolio }}</h2>
 {% endunless %}
-<div id="projects" class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
+<div class="row row-cols-1 row-cols-md-3 gy-5 pt-3">
 {% for item in paginator.posts %}
 <div class="col">
   <a class="thumb d-block" href="{{ item.url }}">
